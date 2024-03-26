@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import SocialMedia from '../components/SocialMedia'
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className='bg-second min-h-screen'>
+        <Navbar/>
+        <SocialMedia/>  
+    </div>
+  ) 
 }
 
 export default Home
