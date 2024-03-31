@@ -7,6 +7,8 @@ import About from '../components/About'
 import Need from '../components/Need'
 import Newsletter from '../components/Newsletter'
 import Contact from '../components/Contact'
+import Events from '../components/Events'
+import DonationBox from '../components/DonationBox'
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
         <Need/>
         <Newsletter/>
         <Contact/>
+        <Events/>
+        <DonationBox/>
     </div>
   ) 
 }

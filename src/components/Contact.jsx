@@ -41,7 +41,7 @@ function Contact() {
                     <input className='bg-gray-300 pl-3 py-3 my-2' type="text" name="number" id="number" placeholder='Phone number' />
                     <input className='bg-gray-300 pl-3 py-3 my-2' type="email" name="email" id="email" placeholder='Email address' />
                     <textarea className='bg-gray-300 pl-3 py-3 my-2' name="message" id="message" cols="30" rows="10" placeholder='Your message'></textarea>
-                    <input className='bg-second w-24 rounded-2xl py-1' type="submit" value="submit" />
+                    <input className='bg-second mx-auto mt-2 text-white w-24 rounded-2xl py-1' type="submit" value="SUBMIT" />
                 </form>
             </div>
         </div>

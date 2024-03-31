@@ -18,7 +18,7 @@ function Carousel() {
   const goToSlide = (slideIndex) => setCurrentIndex(slideIndex);
 
   return (
-    <div className='max-w-[1400px] h-[590px] md:h-[780px] w-full m-auto relative group'>
+    <div className='max-w-[1400px] h-[490px] md:h-[580px] w-full m-auto relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex]})` }}
         className='w-full h-full bg-center bg-cover duration-500'
