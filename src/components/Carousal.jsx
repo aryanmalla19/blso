@@ -18,10 +18,10 @@ function Carousel() {
   const goToSlide = (slideIndex) => setCurrentIndex(slideIndex);
 
   return (
-    <div className='max-w-[1400px] h-[780px] w-full m-auto relative group'>
+    <div className='max-w-[1400px] h-[590px] md:h-[780px] w-full m-auto relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex]})` }}
-        className='w-full h-4/6 md:h-full bg-center bg-cover duration-500'
+        className='w-full h-full bg-center bg-cover duration-500'
       ></div>
       {/* Left Arrow */}
       <div className='block md:hidden group-hover:block absolute top-[60%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer' onClick={prevSlide}>
