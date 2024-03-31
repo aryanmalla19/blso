@@ -5,6 +5,8 @@ import Carousel from '../components/Carousal'
 import Section from '../components/Section'
 import About from '../components/About'
 import Need from '../components/Need'
+import Newsletter from '../components/Newsletter'
+import Contact from '../components/Contact'
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
         <Section/>
         <About/>
         <Need/>
+        <Newsletter/>
+        <Contact/>
     </div>
   ) 
 }
