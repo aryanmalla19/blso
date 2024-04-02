@@ -1,5 +1,6 @@
 import React from 'react'
-
+import SectionBox from './SectionBox'
+import { SlNotebook } from "react-icons/sl";
 function Section() {
   return (
     <section id="about" className="py-3 bg-second font-poppins text-white">
@@ -17,7 +18,12 @@ function Section() {
             </div>
           
           </div>
-  
+          <div className='w-11/12 my-10 mx-auto flex justify-around'>
+          <SectionBox logo={<SlNotebook className='text-4xl'/>} name="700" message="project completed" />
+          <SectionBox logo={<SlNotebook className='text-4xl'/>} name="700" message="project completed" />
+          <SectionBox logo={<SlNotebook className='text-4xl'/>} name="700" message="project completed" />
+          <SectionBox logo={<SlNotebook className='text-4xl'/>} name="700" message="project completed" />
+          </div>
         </div>
       </section>
   )
