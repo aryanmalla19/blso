@@ -9,6 +9,7 @@ import Newsletter from '../components/Newsletter'
 import Contact from '../components/Contact'
 import Events from '../components/Events'
 import DonationBox from '../components/DonationBox'
+import Help from '../components/Help'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <Contact/>
         <Events/>
         <DonationBox/>
+        <Help/>
     </div>
   ) 
 }
