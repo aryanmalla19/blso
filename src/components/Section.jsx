@@ -6,7 +6,7 @@ function Section() {
     <section id="about" className="py-3 mb-5 bg-second font-poppins text-white">
         <div className="container aos-init aos-animate" data-aos="fade-up">
   
-           <div className="text-center my-2">
+           <div className="text-center pt-6 my-2">
             <h2 className=''>Introduction</h2>
             <p className='text-2xl font-semibold mb-1'> BETTER LIFE SOCIAL ORGANIZATION </p>
           </div> 

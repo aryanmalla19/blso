@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/con' element={<Contact/>} />
+        <Route path='/c' element={<Contact/>} />
       </Routes>
     </>
   );

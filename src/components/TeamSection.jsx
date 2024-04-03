@@ -25,13 +25,13 @@ const TeamSection = () => {
                         </div>
                         <ul className="sci">
                             <li style={{ '--i': 1 }}>
-                                <a href="#"><i className="fab fa-instagram"></i></a>
+                                <a href="/"><i className="fab fa-instagram"></i></a>
                             </li>
                             <li style={{ '--i': 2 }}>
-                                <a href="#"><i className="fab fa-github"></i></a>
+                                <a href="/"><i className="fab fa-github"></i></a>
                             </li>
                             <li style={{ '--i': 3 }}>
-                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -49,13 +49,13 @@ const TeamSection = () => {
                         </div>
                         <ul className="sci">
                             <li style={{ '--i': 1 }}>
-                                <a href="#"><i className="fab fa-instagram"></i></a>
+                                <a href="/"><i className="fab fa-instagram"></i></a>
                             </li>
                             <li style={{ '--i': 2 }}>
-                                <a href="#"><i className="fab fa-github"></i></a>
+                                <a href="/"><i className="fab fa-github"></i></a>
                             </li>
                             <li style={{ '--i': 3 }}>
-                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -73,13 +73,13 @@ const TeamSection = () => {
                         </div>
                         <ul className="sci">
                             <li style={{ '--i': 1 }}>
-                                <a href="#"><i className="fab fa-instagram"></i></a>
+                                <a href="/"><i className="fab fa-instagram"></i></a>
                             </li>
                             <li style={{ '--i': 2 }}>
-                                <a href="#"><i className="fab fa-github"></i></a>
+                                <a href="/"><i className="fab fa-github"></i></a>
                             </li>
                             <li style={{ '--i': 3 }}>
-                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>

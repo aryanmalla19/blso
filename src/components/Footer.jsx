@@ -39,7 +39,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <h1 className='text-white py-3 text-center border-t border-white'>© Copyright Better Life Social Organization . All Rights Reserved</h1>
+      <h1 className='text-white bg-second mb-0 py-3 text-xl text-center border-t border-white'>© Copyright Better Life Social Organization . All Rights Reserved</h1>
     </div>
   )
 }

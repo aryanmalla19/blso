@@ -7,7 +7,6 @@ import About from '../components/About'
 import Need from '../components/Need'
 import Newsletter from '../components/Newsletter'
 import Events from '../components/Events'
-import MeetVol from '../components/MeetVol'
 import Footer from '../components/Footer'
 import TeamSection from '../components/TeamSection'
 
@@ -21,7 +20,6 @@ function Home() {
         <About/>
         <Need/>
         <Events/>
-        <MeetVol/>
         <TeamSection/>
         <Newsletter/>
         <Footer/>
