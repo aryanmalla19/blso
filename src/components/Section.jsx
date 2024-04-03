@@ -3,7 +3,7 @@ import SectionBox from './SectionBox'
 import { SlNotebook } from "react-icons/sl";
 function Section() {
   return (
-    <section id="about" className="py-3 bg-second font-poppins text-white">
+    <section id="about" className="py-3 mb-5 bg-second font-poppins text-white">
         <div className="container aos-init aos-animate" data-aos="fade-up">
   
            <div className="text-center my-2">

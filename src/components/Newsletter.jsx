@@ -2,7 +2,7 @@ import React from 'react'
 
 function Newsletter() {
   return (
-    <div className='w-full font-poppins py-10 bg-second flex justify-center'>
+    <div className='w-full font-poppins py-10 bg-wow flex justify-center'>
         <div className='w-5/12 flex flex-col justify-center text-center'>
         <h2 className='font-lato text-xl my-1'>Subscribe</h2>
         <h1 className='text-2xl font-medium mb-4'>Newsletter</h1>

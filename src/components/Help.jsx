@@ -9,7 +9,9 @@ function Help() {
                     <h1 className='text-xl font-medium font-lato'>Help First</h1>
                     <h1 className='text-2xl text-second font-medium my-2'>Let's Help Together</h1>
                     <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corporis quisquam debitis nostrum voluptate, id consectetur ipsa sed beatae vitae sapiente est voluptatibus corrupti ratione assumenda ab laboriosam minima!</p>
-                    <CustomBox name="+977" />
+                    <div>
+                    <CustomBox name="Call :   +977 9476423764" />
+                    </div>
                 </div>
                 <div className='w-6/12'>
                     <img src='https://www.blsonepal.org.np/uploads/medium/earthquick-p0ZnHNYM8SFdjAjIU9aKM2xilLT4DvmjkPfA5KHt.jpg' alt="" />

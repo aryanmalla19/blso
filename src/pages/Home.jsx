@@ -6,10 +6,10 @@ import Section from '../components/Section'
 import About from '../components/About'
 import Need from '../components/Need'
 import Newsletter from '../components/Newsletter'
-import Contact from '../components/Contact'
 import Events from '../components/Events'
-import DonationBox from '../components/DonationBox'
-import Help from '../components/Help'
+import MeetVol from '../components/MeetVol'
+import Footer from '../components/Footer'
+import TeamSection from '../components/TeamSection'
 
 function Home() {
   return (
@@ -20,11 +20,11 @@ function Home() {
         <Section/>
         <About/>
         <Need/>
-        <Newsletter/>
-        <Contact/>
         <Events/>
-        <DonationBox/>
-        <Help/>
+        <MeetVol/>
+        <TeamSection/>
+        <Newsletter/>
+        <Footer/>
     </div>
   ) 
 }
