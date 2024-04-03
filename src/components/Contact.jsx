@@ -14,8 +14,8 @@ function Contact() {
                             <CiMail className='text-4xl text-white' />
                         </div>
                         <div className='flex flex-col ml-5'>
-                            <h2 className='font-medium'>Message</h2>
-                            <h1 className='text-gray-500'>support@walfare.com</h1>
+                            <h2 className='font-medium text-xl'>Message</h2>
+                            <h1 className='text-gray-500 text-lg'>support@walfare.com</h1>
                         </div>
                     </div>
                     <div className='flex mt-5'>
@@ -23,8 +23,8 @@ function Contact() {
                             <CiPhone className='text-4xl text-white' />
                         </div>
                         <div className='flex flex-col ml-5'>
-                            <h2 className='font-medium'>Contact Us</h2>
-                            <h1 className='text-gray-500'>+977</h1>
+                            <h2 className='font-medium text-xl'>Contact Us</h2>
+                            <h1 className='text-gray-500 text-lg'>+977</h1>
                         </div>
                     </div>
                     <div>
@@ -33,7 +33,7 @@ function Contact() {
                 </div>
                 <h1 className='font-medium mt-5 text-2xl'>Follow us on social media</h1>
                 <p className='text-gray-500'>Veniam quae. Nostrum facere repellendus minus quod aut aliquam neque reiciendis.</p>
-                <Social/>
+                <Social />
             </div>
             <div className='w-6/12'>
                 <form className='flex mt-8 flex-col' action="" method="post">

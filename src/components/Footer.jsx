@@ -9,11 +9,13 @@ function Footer() {
           <div className='flex justify-center'>
             <img className='w-8/12' src={logo} alt="logo" />
           </div>
-          <p>Care about people to transforming their lives
+          <p className='mb-0 mt-3 pb-0'>Care about people to transforming their lives
             and exudes a positives Impressiono believe. fundraising
             NGO organizations.
           </p>
+          <div className='flex justify-center'>
           <Social/>
+          </div>
         </div>
         <div className='w-7/12 bg-third mt-5 justify-around pt-5 text-white flex'>
           <ul>

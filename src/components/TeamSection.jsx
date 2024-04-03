@@ -16,7 +16,7 @@ const TeamSection = () => {
                 <div className="card">
 
                     <div className="imbBx">
-                        <img src="./image/pic01.jpg" alt="" />
+                        <img src="https://www.blsonepal.org.np/uploads/medium/gokul-wnjTI9FaPqdLwOcOczkrwhzVvFS7f778bGAr8jwW.jpg" alt="" />
                     </div>
 
                     <div className="content">
@@ -40,7 +40,7 @@ const TeamSection = () => {
                 <div className="card">
 
                     <div className="imbBx">
-                        <img src="./image/pic01.jpg" alt="" />
+                        <img src="https://www.blsonepal.org.np/uploads/medium/gokul-wnjTI9FaPqdLwOcOczkrwhzVvFS7f778bGAr8jwW.jpg" alt="" />
                     </div>
 
                     <div className="content">
@@ -64,7 +64,7 @@ const TeamSection = () => {
                 <div className="card">
 
                     <div className="imbBx">
-                        <img src="./image/pic01.jpg" alt="" />
+                        <img src="https://www.blsonepal.org.np/uploads/medium/mandip-3jIbh3iw0BK6JurqWHcZmOqKWyQdeivontpy7u0V.jpg" alt="" />
                     </div>
 
                     <div className="content">
