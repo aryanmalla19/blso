@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
-
+import '../App.css'
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
@@ -9,7 +9,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div className="z-50">
-          <div className="px-3 text-left md:cursor-pointer group">
+          <div className="px-3 py-4 text-left md:cursor-pointer group">
             <h1
               className=" text-lg flex justify-between items-center mb-0 md:pr-0 pr-5 group"
               onClick={() => {
@@ -32,13 +32,13 @@ const NavLinks = () => {
             {link.submenu && (
               <div>
                 <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
-                  <div className="py-3">
+                  <div className="py-2">
                     <div
                       className="w-4 h-4 left-3 absolute 
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  <div className="bg-white p-5  grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold">
@@ -97,7 +97,7 @@ const NavLinks = () => {
                     }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14">
+                      <li className="py-3 text-blak pl-14">
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}

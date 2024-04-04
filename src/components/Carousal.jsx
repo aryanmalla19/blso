@@ -14,29 +14,29 @@ class Carousel extends React.Component {
 
         <div className="carousel-inner">
           <div className="carousel-item active c-item">
-            <img src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100" className="d-block w-100 c-img" alt="Slide 1" />
+            <img src="https://i.pinimg.com/564x/02/e7/07/02e7072b08889e5a18d66e0de678ac1c.jpg" className="d-block w-100 c-img" alt="Slide 1" />
             <div className="carousel-caption top-0 mt-4">
-              <p className="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
-              <h1 className="display-1 fw-bolder text-capitalize">The Aurora Tours</h1>
-              <button className="btn btn-primary px-4 py-2 fs-5 mt-5">Book a tour</button>
+              <p className="mt-5 fs-3 text-uppercase">Everyone can help</p>
+              <h1 className="display-1 fw-bolder text-capitalize">BLSO Nepal</h1>
+              <button className="btn btn-primary px-4 py-2 fs-5 mt-5">Donate now</button>
             </div>
           </div>
           <div className="carousel-item c-item">
-            <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 2" />
+            <img src="https://i.pinimg.com/564x/d0/c3/3c/d0c33c40b3711910b1e2ebeb0970a0fb.jpg" className="d-block w-100 c-img" alt="Slide 2" />
             <div className="carousel-caption top-0 mt-4">
-              <p className="text-uppercase fs-3 mt-5">The season has arrived</p>
-              <p className="display-1 fw-bolder text-capitalize">3 available tours</p>
+              <p className="text-uppercase fs-3 mt-5">Transforming Little Lives, One Support at a Time</p>
+              <p className="display-1 fw-bolder text-capitalize">Give love Once</p>
               <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-                data-bs-target="#booking-modal">Book a tour</button>
+                data-bs-target="#booking-modal">Donate now</button>
             </div>
           </div>
           <div className="carousel-item c-item">
-            <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100" className="d-block w-100 c-img" alt="Slide 3" />
+            <img src="https://i.pinimg.com/564x/35/82/b9/3582b9e4fa770269f044a110be7e609a.jpg" className="d-block w-100 c-img" alt="Slide 3" />
             <div className="carousel-caption top-0 mt-4">
-              <p className="text-uppercase fs-3 mt-5">Destination activities</p>
-              <p className="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
+              <p className="text-uppercase fs-3 mt-5">Join Better Life Social Organization and Transform Lives Together.</p>
+              <p className="display-1 fw-bolder text-capitalize">Be a Volunter</p>
               <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-                data-bs-target="#booking-modal">Book a tour</button>
+                data-bs-target="#booking-modal">Join now</button>
             </div>
           </div>
         </div>

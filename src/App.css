@@ -7,3 +7,9 @@
     object-fit: cover;
     filter: brightness(0.6);
   }
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+  
+}

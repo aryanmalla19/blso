@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <ul className="md:flex mb-0 hidden uppercase items-center gap-8 font-poppins">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-7 text-xl font-normal text-black no-underline px-3 inline-block">
               Home
             </Link>
           </li>
