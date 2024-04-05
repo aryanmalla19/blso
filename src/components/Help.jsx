@@ -14,12 +14,12 @@ function Help() {
                     </div>
                 </div>
                 <div className='w-6/12'>
-                    <img src='https://www.blsonepal.org.np/uploads/medium/earthquick-p0ZnHNYM8SFdjAjIU9aKM2xilLT4DvmjkPfA5KHt.jpg' alt="" />
+                    <img src='https://i.pinimg.com/564x/31/a4/9e/31a49e16fe7c3a62dbac8a831b95cdbe.jpg' alt="" />
                 </div>
             </div>
             <div className='flex justify-between'>
                 <div className='w-6/12 mr-10'>
-                    <img src='https://www.blsonepal.org.np/uploads/medium/earthquick-p0ZnHNYM8SFdjAjIU9aKM2xilLT4DvmjkPfA5KHt.jpg' alt="" />
+                    <img src='https://i.pinimg.com/564x/df/34/bd/df34bd5438de6a9cca99dd9c8d21fbf2.jpg' alt="" />
                 </div>
                 <div className='flex w-6/12 flex-col'>
                     <h1 className='text-2xl text-second font-medium my-2'>More People More impact</h1>

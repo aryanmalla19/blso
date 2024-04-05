@@ -33,6 +33,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
+           z-40
         md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
@@ -43,14 +44,15 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <div className="py-5">
-            <Button />
-          </div>
           <li>
-            <Link to="/contact" className="py-7 text-xl font-normal text-black no-underline px-3 inline-block">
+            <Link to="/contact" className="py-7 font-medium text-xl text-black no-underline px-3 inline-block">
               Contact
             </Link>
           </li>
+          <div className="py-5">
+            <Button />
+          </div>
+         
         </ul>
       </div>
     </nav>
