@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white">
       <div className="flex items-center font-medium justify-around">
-        <div className="z-50 px-5 md:py-0 md:w-auto w-full flex justify-between">
+        <div className="z-50 px-5 p-1 md:py-0 md:w-auto w-full flex justify-between">
           <img src={Logo} alt="logo" className="md:cursor-pointer h-9 md:h-16" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>

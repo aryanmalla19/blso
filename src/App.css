@@ -14,3 +14,17 @@ a{
   text-decoration: none !important;
   
 }
+
+::selection{
+  background-color: transparent;
+  color: #FD562A;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FD562A;
+  border-radius: 5px;
+}

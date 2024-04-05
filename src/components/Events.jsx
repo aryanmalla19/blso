@@ -3,9 +3,9 @@ import EventCard from './EventCard'
 
 function Events() {
   return (
-    <div className='my-12'>
+    <div className='lg:my-12'>
 <h1 className='text-4xl my-5 text-center font-poppins font-semibold text-second'>Our Events</h1>
-    <div className='flex w-11/12 flex-wrap justify-between mx-auto'>
+    <div className='flex lg:flex-row flex-col w-11/12 flex-wrap justify-between mx-auto'>
         <EventCard title="Earthquake Project" img="https://www.blsonepal.org.np/uploads/medium/sany0614-dDAqHcy2vDNnMpLQ5tOXJKhpMz92Zid5LAFKmZeG.JPG" message="It was a powerful earthquake measuring 7.8 on the Richter scale that struck the area between Kathmandu and Pokhara at 11:56 local time on Saturday, 25 April 2015." />
         <EventCard title="Agricultures Project with BLSO" img="https://www.blsonepal.org.np/uploads/medium/agricul-2JH5U36gB57ZffTConhh0PmE3NAf489H4tQr4cUk.jpg" message="The Agricultural Development Project, initiated by Better Life Social Organization, aims to uplift Nepalese farmers by providing them with the necessary support, training, and resources." />
         <EventCard title="Family Support Project" img="https://www.blsonepal.org.np/uploads/medium/img-6417-gC5CfQXz1O8pF22XBG5qlcnCM4NhrkjpRtCEgAIP.JPG" message="he Family Support Project aims to empower needy families by providing assistance in various areas, including small business investment, agriculture, livestock, land lease, and equipment support." />
