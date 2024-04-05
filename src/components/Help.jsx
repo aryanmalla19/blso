@@ -10,7 +10,7 @@ function Help() {
                     <h1 className='text-2xl text-second font-medium my-2'>Let's Help Together</h1>
                     <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corporis quisquam debitis nostrum voluptate, id consectetur ipsa sed beatae vitae sapiente est voluptatibus corrupti ratione assumenda ab laboriosam minima!</p>
                     <div>
-                    <CustomBox name="Call :   +977 9476423764" />
+                    <CustomBox name="Call :   +977 9851091049" />
                     </div>
                 </div>
                 <div className='w-6/12'>

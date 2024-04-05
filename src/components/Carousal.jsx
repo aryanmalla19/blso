@@ -13,15 +13,15 @@ class Carousel extends React.Component {
         </div>
 
         <div className="carousel-inner">
-          <div className="carousel-item active c-item">
-            <img src="https://i.pinimg.com/564x/02/e7/07/02e7072b08889e5a18d66e0de678ac1c.jpg" className="d-block w-100 c-img" alt="Slide 1" />
+          <div className="carousel-item active c-item transition-opacity duration-1000 ease-in-out">
+            <img src="https://i.pinimg.com/564x/03/62/a2/0362a2994affd201e42bf3d3b689eb72.jpg" className="d-block w-100 c-img" alt="Slide 1" />
             <div className="carousel-caption top-0 mt-4">
               <p className="mt-5 fs-3 text-uppercase">Everyone can help</p>
               <h1 className="display-1 fw-bolder text-capitalize">BLSO Nepal</h1>
               <button className="btn btn-primary px-4 py-2 fs-5 mt-5">Donate now</button>
             </div>
           </div>
-          <div className="carousel-item c-item">
+          <div className="carousel-item c-item transition-opacity duration-1000 ease-in-out">
             <img src="https://i.pinimg.com/564x/d0/c3/3c/d0c33c40b3711910b1e2ebeb0970a0fb.jpg" className="d-block w-100 c-img" alt="Slide 2" />
             <div className="carousel-caption top-0 mt-4">
               <p className="text-uppercase fs-3 mt-5">Transforming Little Lives, One Support at a Time</p>
@@ -30,7 +30,7 @@ class Carousel extends React.Component {
                 data-bs-target="#booking-modal">Donate now</button>
             </div>
           </div>
-          <div className="carousel-item c-item">
+          <div className="carousel-item c-item transition-opacity duration-1000 ease-in-out">
             <img src="https://i.pinimg.com/564x/35/82/b9/3582b9e4fa770269f044a110be7e609a.jpg" className="d-block w-100 c-img" alt="Slide 3" />
             <div className="carousel-caption top-0 mt-4">
               <p className="text-uppercase fs-3 mt-5">Join Better Life Social Organization and Transform Lives Together.</p>

@@ -13,7 +13,7 @@ function About() {
             </div>
         </div>
         <div className='w-5/12'>
-          <img src="https://www.blsonepal.org.np/uploads/medium/istockphoto-1170754176-612x612-QDJPRAtUEEPn9JL7GTbxglrexARMXo1yWCg7I9JW.jpg" alt="" />
+          <img className='rounded' src="https://www.blsonepal.org.np/uploads/medium/istockphoto-1170754176-612x612-QDJPRAtUEEPn9JL7GTbxglrexARMXo1yWCg7I9JW.jpg" alt="" />
 
         </div>
     </div>

@@ -7,8 +7,8 @@ const TeamSection = () => {
     return (
         <div className="wrapper">
 
-            <div className="title">
-                <h4 className='text-2xl'>Our Team Section</h4>
+            <div className="">
+                <h4 className='text-3xl text-second font-semibold text-center'>Our Team Section</h4>
             </div>
 
             <div className="card_Container">

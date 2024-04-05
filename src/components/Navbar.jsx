@@ -21,6 +21,11 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
+          <li>
+            <Link to="/contact" className="py-7 text-xl font-normal text-black no-underline px-3 inline-block">
+              Contact
+            </Link>
+          </li>
         </ul>
         <div className="md:block hidden">
           <Button />
@@ -41,6 +46,11 @@ const Navbar = () => {
           <div className="py-5">
             <Button />
           </div>
+          <li>
+            <Link to="/contact" className="py-7 text-xl font-normal text-black no-underline px-3 inline-block">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -17,13 +17,13 @@ function Footer() {
           <Social/>
           </div>
         </div>
-        <div className='w-7/12 bg-third mt-5 justify-around pt-5 text-white flex'>
-          <ul>
+        <div className='w-7/12 text-center bg-third mt-5 justify-around text-white rounded flex items-center'>
+          <ul className=''>
             <h1 className='text-xl'>Get Involved</h1>
             <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
-            <li>About Us</li>
+            <li>Volunteer</li>
+            <li>Projects</li>
+            <li>Causes</li>
           </ul>
           <ul>
             <h1 className='text-xl'>Get Involved</h1>
@@ -33,7 +33,7 @@ function Footer() {
             <li>About Us</li>
           </ul>
           <ul>
-            <h1 className='text-xl'>Get Involved</h1>
+            <h1 className='text-xl'>Contact</h1>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>

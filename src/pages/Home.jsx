@@ -6,18 +6,20 @@ import About from '../components/About'
 import Need from '../components/Need'
 import Newsletter from '../components/Newsletter'
 import Events from '../components/Events'
-import TeamSection from '../components/TeamSection'
+import MissionGoal from '../components/MissionGoal'
+import JoinVolunteer from '../components/JoinVolunteer'
 
 function Home() {
   return (
     <div className='min-h-screen'>
-        <SocialMedia/>  
         <Carousel />
+        <SocialMedia/>  
         <Section/>
         <About/>
-        <Need/>
         <Events/>
-        <TeamSection/>
+        <Need/>
+        <JoinVolunteer/>
+        <MissionGoal/>
         <Newsletter/>
     </div>
   ) 
