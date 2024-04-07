@@ -39,16 +39,16 @@ export const links = [
         }
       ],
     },
-    {
-      name: "About",
-      submenu: true,
-      sublinks: [
+    // {
+    //   name: "About",
+    //   submenu: true,
+    //   sublinks: [
         // {
         //   Head: "Topwear",
         //   sublink: [
-        //     { name: "T-shirt", link: "/" },
-        //     { name: "Casual shirts", link: "/" },
-        //     { name: "formal shirts", link: "/" },
+            // { name: "Introduction", link: "/" },
+            // { name: "Our Team", link: "/" },
+            // { name: "FAQ", link: "/" },
         //     { name: "formal shirts", link: "/" },
         //     { name: "formal shirts", link: "/" },
         //   ],
@@ -63,6 +63,6 @@ export const links = [
         //     { name: "formal shirts", link: "/" },
         //   ],
         // },
-      ],
-    }
+      // ],
+    // }
   ];

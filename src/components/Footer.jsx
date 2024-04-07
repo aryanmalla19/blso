@@ -18,21 +18,21 @@ function Footer() {
           </div>
         </div>
         <div className='w-7/12 text-center bg-third mt-5 justify-around text-white rounded flex items-center'>
-          <ul className=''>
+          <ul className='text-base font-light'>
             <h1 className='text-xl'>Get Involved</h1>
             <li>About Us</li>
             <li>Volunteer</li>
             <li>Projects</li>
             <li>Causes</li>
           </ul>
-          <ul>
+          <ul className='font-light'>
             <h1 className='text-xl'>Get Involved</h1>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>
             <li>About Us</li>
           </ul>
-          <ul>
+          <ul className='font-light'>
             <h1 className='text-xl'>Contact</h1>
             <li>About Us</li>
             <li>About Us</li>

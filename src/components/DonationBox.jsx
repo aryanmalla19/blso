@@ -11,7 +11,7 @@ function DonationBox() {
                     <div className='flex flex-col lg:w-8/12 rounded-lg bg-white'>
                         {/* <img src={} alt="" /> */}
                         <p>Scan this QR code <br />
-                            to Donate BLSO Nepal</p>
+                            to Donate <span className='text-second font-semibold'>BLSO Nepal</span></p>
                     </div>
                     <div>
                         <h1 className='text-2xl font-medium my-4'>Accepted Payment Methods</h1>
@@ -26,10 +26,13 @@ function DonationBox() {
                 <div className='flex flex-col lg:w-5/12'>
                     <h1 className='text-2xl font-medium mb-2'>Bank Details</h1>
                     <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus excepturi similique eveniet ullam, earum quisquam libero debitis, dolores facere maxime iste at, quasi alias minus. Nisi facilis nobis ad?</p>
-                    <pre className='mb-1'>Account Number      98776543456789</pre>
-                    <pre className='mb-1'>Beneficiar Name     Better Life Social Organization </pre>
+                    
+                    <h6 className='mb-2 font-medium'>NEPAL INVESTMENT MEGA BANK LIMITED</h6>
+                    <pre className='mb-1'>Account Number     01201020256278</pre>
+                    <pre className='mb-1'>Beneficiar Name    Better Life Social Organization </pre>
+                    <pre className='mb-1'>Address            Putalisadk Branch, Kathamndu, Nepal </pre>
                     <pre></pre>
-                    <div className='mt-5'>
+                    <div className='mt-3'>
                         <CustomBox name="COPY ACCOUNT DETAILS" />
                     </div>
                 </div>

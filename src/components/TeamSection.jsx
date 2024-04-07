@@ -10,7 +10,7 @@ const TeamSection = () => {
             <div className="">
                 <h4 className='text-3xl text-second font-semibold text-center'>Our Team Section</h4>
             </div>
-
+        
             <div className="card_Container">
 
                 <div className="card">

@@ -15,7 +15,7 @@ function Contact() {
                         </div>
                         <div className='flex flex-col ml-5'>
                             <h2 className='font-medium text-base mb-0 lg:text-xl'>Message</h2>
-                            <h1 className='text-gray-500 text-xs lg:text-lg'>support@walfare.com</h1>
+                            <h1 className='text-gray-500 text-xs lg:text-lg'>info@blsonepal.org.np</h1>
                         </div>
                     </div>
                     <div className='flex mt-5'>
@@ -24,7 +24,7 @@ function Contact() {
                         </div>  
                         <div className='flex flex-col ml-5'>
                             <h2 className='font-medium text-base mb-0 lg:text-xl'>Contact Us</h2>
-                            <h1 className='text-gray-500 text-xs lg:text-lg'>+977</h1>
+                            <h1 className='text-gray-500 text-xs lg:text-lg'>+977 9851091049</h1>
                         </div>
                     </div>
                     <div>

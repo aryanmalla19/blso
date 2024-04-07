@@ -39,8 +39,9 @@ class Carousel extends React.Component {
             <div className="carousel-caption top-0 mt-4">
               <p className="text-uppercase text-base lg:text-2xl mt-5">Join Better Life Social Organization and Transform Lives Together.</p>
               <p className="display-1 fw-bolder text-2xl text-capitalize">Be a Volunter</p>
-              <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-                data-bs-target="#booking-modal">Join now</button>
+              <a href="#volunteer">
+              <button className="btn btn-primary px-4 py-2 fs-5 mt-5" >Join now</button>
+              </a>
             </div>
           </div>
         </div>
