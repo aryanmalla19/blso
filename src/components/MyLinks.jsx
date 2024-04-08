@@ -6,7 +6,7 @@ export const links = [
         {
           Head: "Running Projects",
           sublink: [
-            { name: "Education Project", link: "/" },
+            { name: "Education Project", link: "/education-project" },
             { name: "Health Support Saving Lives Together", link: "/" },
             { name: "Agriculture", link: "/" },
             { name: "Group Birthday Project", link: "/" },

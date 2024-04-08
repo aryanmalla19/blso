@@ -39,23 +39,23 @@ const Navbar = () => {
         <ul
           className={`
            z-40
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-white fixed w-full top-0 h-screen overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link onClick={() => setOpen(!open)} to="/" className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className="py-7 px-3 inline-block">
+            <Link onClick={() => setOpen(!open)} to="/about" className="py-7 px-3 inline-block">
               About
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 font-medium text-xl text-black no-underline px-3 inline-block">
+            <Link onClick={() => setOpen(!open)} to="/contact" className="py-7 text-base no-underline px-3 inline-block">
               Contact
             </Link>
           </li>
