@@ -11,6 +11,7 @@ import EducationProject from './pages/EducationProject';
 import Footer2 from './components/Footer2';
 
 function App() {
+  document.title = "Better Life Social Organization"
   return (
     <>
       <Navbar/>
