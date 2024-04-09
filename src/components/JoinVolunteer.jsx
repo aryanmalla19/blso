@@ -13,10 +13,10 @@ function JoinVolunteer() {
             <div className="w-11/12 mx-auto lg:w-5/12 flex flex-col lg:pt-7 pb-10">
                 <h2 className='my-3 text-xl lg:text-3xl text-center'>Become A Volunteer</h2>
                 <form className='flex flex-col' action="" method="post">
-                    <input className='pl-3 py-1 lg:py-3 rounded-sm my-2' type="text" name="name" id="name" placeholder='Enter your name' />
-                    <input className=' pl-3 py-1 lg:py-3 rounded-sm my-2' type="text" name="number" id="number" placeholder='Phone number' />
-                    <input className=' pl-3 py-1 lg:py-3 rounded-sm my-2' type="email" name="email" id="email" placeholder='Email address' />
-                    <textarea className=' pl-3 py-1 lg:py-3 rounded-sm my-2' name="message" id="message" cols="30" rows="10" placeholder='Your message'></textarea>
+                    <input className='pl-3 py-1 lg:py-3 rounded my-2' type="text" name="name" id="name" placeholder='Enter your name' />
+                    <input className=' pl-3 py-1 lg:py-3 rounded my-2' type="text" name="number" id="number" placeholder='Phone number' />
+                    <input className=' pl-3 py-1 lg:py-3 rounded my-2' type="email" name="email" id="email" placeholder='Email address' />
+                    <textarea className=' pl-3 py-1 lg:py-3 rounded my-2' name="message" id="message" cols="30" rows="10" placeholder='Your message'></textarea>
                     <input className='bg-red-500 mx-auto mt-2 text-white w-24 rounded-2xl py-1' type="submit" value="SUBMIT" />
                 </form>
             </div>

@@ -11,8 +11,8 @@ module.exports = {
         "montserrat":['Montserrat']
       },
       colors:{
-        'first':"#0182D7",
-        'second':'#00947F',
+        'first':"#00947F",
+        'second':'#0182D7',
         'third':'#0D2420',
         'wow':'#DCE9E6'
       }

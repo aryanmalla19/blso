@@ -25,7 +25,7 @@ function DonationBox() {
                 </div>
                 <div className='flex flex-col lg:w-5/12'>
                     <h1 className='text-2xl font-medium mb-2'>Bank Details</h1>
-                    <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus excepturi similique eveniet ullam, earum quisquam libero debitis, dolores facere maxime iste at, quasi alias minus. Nisi facilis nobis ad?</p>
+                    <p className='mb-5'>Better Life Social Organization, a nonprofit dedicated to making a positive impact in the lives of those in need. We believe that every individual deserves a chance to lead a better life, and with your support, we can bring about remarkable change together.</p>
                     
                     <h6 className='mb-2 font-medium'>NEPAL INVESTMENT MEGA BANK LIMITED</h6>
                     <pre className='mb-1'>Account Number     01201020256278</pre>

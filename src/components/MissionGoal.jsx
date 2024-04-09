@@ -40,7 +40,7 @@ function MissionGoal() {
                 <h1 className='text-xl text-center lg:text-left lg:text-4xl mb-3 text-second font-medium'>Our Mission</h1>
                 <p className='text-sm lg:text-base'>A Nepal where all vulnerable children have the opportunity to overcome their challenges, reach their full potential, and live fulfilling lives with dignity and hope for the future. To empower vulnerable children in Nepal who are orphaned, victims of conflict, or living in extreme poverty by providing comprehensive access to education, healthcare, basic needs, and skill training.</p>
                 <div className='relative'>
-                    <img className='' src="https://www.blsonepal.org.np/uploads/medium/volunteer-P26f9wydr3UDGUgfFZ14mHwZjYUgVplGbEX63pXr.jpg" alt="" />
+                    <img className='rounded' src="https://www.blsonepal.org.np/uploads/medium/volunteer-P26f9wydr3UDGUgfFZ14mHwZjYUgVplGbEX63pXr.jpg" alt="" />
                     <div className='flex absolute bottom-[-50px] left-[20%] lg:left-[30%] text-white justify-center items-center flex-col w-[190px] lg:w-[250px] px-3 py-2 lg:py-4 bg-second'>
                         <h2 className='text-xl lg:text-3xl'>20000+</h2>
                         <p className='text-sm lg:text-base'>Thousand people helped</p>
