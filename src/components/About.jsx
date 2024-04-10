@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
 
 function About() {
   return (
@@ -12,11 +12,14 @@ function About() {
                 <Button/>
             </div>
         </div>
-        <div className='w-full mt-3 lg:mt-0 lg:w-5/12'>
-          <img className='rounded' src="https://www.blsonepal.org.np/uploads/medium/istockphoto-1170754176-612x612-QDJPRAtUEEPn9JL7GTbxglrexARMXo1yWCg7I9JW.jpg" alt="" />
+        <div className='w-full relative overflow-hidden mt-3 lg:mt-0 lg:w-5/12'>
+          <div className='w-full h-full overflow-hidden meoww transition-all duration-700 ease-out cursor-pointer' style={{ backgroundImage: "url('https://www.blsonepal.org.np/uploads/medium/istockphoto-1170754176-612x612-QDJPRAtUEEPn9JL7GTbxglrexARMXo1yWCg7I9JW.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+
+          </div>
+          {/* No need for the <img> tag */}
         </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

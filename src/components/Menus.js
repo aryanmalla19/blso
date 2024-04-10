@@ -11,9 +11,9 @@ export const PRODUCTS = [
     { name: "Nostrud exercitation", link: "#" },
   ];
   export const COMPANY = [
-    { name: "Diversity & inclusion", link: "#" },
+    { name: "Home", link: "#" },
     { name: "About us", link: "#" },
-    { name: "Press", link: "#" },
+    { name: "Join Volunteer", link: "#" },
     { name: "Customer Stories", link: "#" },
     { name: "Online communities", link: "#" },
   ];

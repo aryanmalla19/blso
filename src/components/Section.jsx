@@ -22,10 +22,10 @@ function Section() {
           
           </div>
           <div className='my-10 mx-auto flex lg:flex-row flex-wrap justify-around'>
-          <SectionBox logo={<SlNotebook className='text-4xl'/>} name="700" message="PROJECT COMPLETED" />
-          <SectionBox logo={<FaRegSmile className='text-4xl'/>} name="3000" message="FAMILY SETTLED" />
-          <SectionBox logo={<FaHeadphones className='text-4xl'/>} name="5" message="WORKING YEARS" />
-          <SectionBox logo={<BsPeople className='text-4xl'/>} name="5000" message="PEOPLE HOUSED" />
+          <SectionBox logo={<SlNotebook className='group-hover:text-white text-4xl'/>} name="700" message="PROJECT COMPLETED" />
+          <SectionBox logo={<FaRegSmile className='group-hover:text-white text-4xl'/>} name="3000" message="FAMILY SETTLED" />
+          <SectionBox logo={<FaHeadphones className='group-hover:text-white text-4xl'/>} name="5" message="WORKING YEARS" />
+          <SectionBox logo={<BsPeople className='group-hover:text-white text-4xl'/>} name="5000" message="PEOPLE HOUSED" />
           </div>
         </div>
       </section>

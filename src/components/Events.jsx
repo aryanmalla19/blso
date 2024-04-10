@@ -88,10 +88,10 @@ function Events() {
 
   return (
     <div className='lg:my-12'>
-      <h1 className='text-xl lg:text-4xl mt-4 mb-2 lg:my-4 text-center font-poppins font-semibold text-second'>Our Events</h1>
+      <h1 className='text-xl lg:text-4xl mt-4 mb-2 lg:my-5 text-center font-poppins font-semibold text-second'>Our Events</h1>
       <div className='flex mb-3 lg:mb-5 justify-center'>
         {categories.map((cat) => (
-          <div key={cat.value}>
+          <div key={cat.value} className='lg:mb-5 lg:mt-3'>
             <label htmlFor={cat.value}>
               <input type="radio" name="category" id={cat.value} className='hidden' onChange={handleChange} value={cat.value} checked={selectedCategory === cat.value} />
               <span className={`text-third cursor-pointer  transition duration-200 font-semibold px-[10px] py-[5px] text-sm md:text-xl ${selectedCategory === cat.value ? "aactive" : ""}`}>{cat.label}</span>

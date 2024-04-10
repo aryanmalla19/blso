@@ -23,17 +23,6 @@ const TeamSection = () => {
                         <div className="contentBx">
                             <h3>James Henry <br /><span>Web Analyst</span></h3>
                         </div>
-                        <ul className="sci">
-                            <li style={{ '--i': 1 }}>
-                                <a href="/"><i className="fab fa-instagram"></i></a>
-                            </li>
-                            <li style={{ '--i': 2 }}>
-                                <a href="/"><i className="fab fa-github"></i></a>
-                            </li>
-                            <li style={{ '--i': 3 }}>
-                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
                     </div>
 
                 </div>
@@ -47,17 +36,6 @@ const TeamSection = () => {
                         <div className="contentBx">
                             <h3>James Henry <br /><span>Web Analyst</span></h3>
                         </div>
-                        <ul className="sci">
-                            <li style={{ '--i': 1 }}>
-                                <a href="/"><i className="fab fa-instagram"></i></a>
-                            </li>
-                            <li style={{ '--i': 2 }}>
-                                <a href="/"><i className="fab fa-github"></i></a>
-                            </li>
-                            <li style={{ '--i': 3 }}>
-                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
                     </div>
 
                 </div>
@@ -71,17 +49,6 @@ const TeamSection = () => {
                         <div className="contentBx">
                             <h3>James Henry <br /><span>Web Analyst</span></h3>
                         </div>
-                        <ul className="sci">
-                            <li style={{ '--i': 1 }}>
-                                <a href="/"><i className="fab fa-instagram"></i></a>
-                            </li>
-                            <li style={{ '--i': 2 }}>
-                                <a href="/"><i className="fab fa-github"></i></a>
-                            </li>
-                            <li style={{ '--i': 3 }}>
-                                <a href="/"><i className="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
                     </div>
 
                 </div>

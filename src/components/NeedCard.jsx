@@ -2,7 +2,7 @@ import React from 'react'
 
 function NeedCard({logo,title,message}) {
   return (
-    <div className='w-full lg:w-4/12 text-center lg:my-4 flex flex-col'>
+    <div className='w-full hover:translate-y-[-2px] transition-all lg:w-4/12 text-center lg:my-4 flex flex-col'>
       <div className='text-6xl w-full text-second flex justify-center my-4'>
         {logo}
       </div>

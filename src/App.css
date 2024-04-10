@@ -32,3 +32,6 @@ a{
   border-radius: 2px;
   border-bottom: 3px solid #FD562A;
 }
+.meoww:hover{
+  transform: scale(1.05);
+}

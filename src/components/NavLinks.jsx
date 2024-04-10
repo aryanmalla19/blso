@@ -11,14 +11,14 @@ const NavLinks = () => {
         <div className="z-50">
           <div className="px-3 py-4 text-left md:cursor-pointer group">
             <h1
-              className="text-base font-normal lg:text-xl font-n flex justify-between items-center mb-0 md:pr-0 pr-5 group"
+              className="text-base font-medium lg:text-xl font-n flex justify-between items-center mb-0 md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
               {link.name}
-              <span className="text-xl md:hidden inline">
+              <span className="text-xl  md:hidden inline">
                 <ion-icon
                   name={`${
                     heading === link.name ? "chevron-up" : "chevron-down"
@@ -41,11 +41,11 @@ const NavLinks = () => {
                   <div className="bg-white p-5  grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold">
+                        <h1 className="text-lg font-normal lg:font-semibold">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
+                          <li className="text-sm font-[40px] text-gray-600 my-2.5">
                             <Link
                               to={slink.link}
                               className="hover:text-primary"
@@ -77,7 +77,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 text-base lg:text-2xl font-semibold md:pr-0 pr-5 flex justify-between items-center"
+                    className="py-4 pl-7  text-base lg:text-2xl font-medium text-black lg:font-semibold md:pr-0 pr-5 flex justify-between items-center"
                   >
                     {slinks.Head}
 
