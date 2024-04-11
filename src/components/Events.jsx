@@ -99,7 +99,7 @@ function Events() {
           </div>
         ))}
       </div>
-      <div className='flex lg:flex-row flex-col w-11/12 flex-wrap justify-between mx-auto'>
+      <div className='flex lg:flex-row sm:flex-row flex-col w-11/12 flex-wrap justify-between mx-auto'>
         {filteredEvents.map((event, index) => (
           <EventCard key={index} title={event.title} img={event.img} message={event.message} />
         ))}

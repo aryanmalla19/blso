@@ -4,11 +4,11 @@ import CustomBox from './CustomBox'
 function AllEvents({ title, img, arr }) {
     console.log(arr)
     return (
-        <div className='bg-second mb-[1px] text-white'>
+        <div className='bg-second  mb-[1px] text-white'>
             <h1 className='text-center pt-10 pb-3 text-xl lg:text-4xl'>{title}</h1>
             <div className='flex flex-col-reverse lg:flex-col'>
 
-                <div className='w-11/12 pb-5 justify-between mx-auto flex flex-col lg:flex-row'>
+                <div className='w-11/12 pb-5 pt-2 justify-between mx-auto flex flex-col lg:flex-row'>
 
                     <div className="lg:w-6/12 flex">
                         <img className='rounded' src={img} alt="" />

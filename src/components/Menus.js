@@ -4,24 +4,24 @@ export const PRODUCTS = [
     { name: "Easy Content", link: "#" },
   ];
   export const RESOURCES = [
-    { name: "Industries and tools", link: "#" },
+    { name: "Save A Child", link: "#" },
     { name: "Use cases", link: "#" },
-    { name: "Blog", link: "#" },
-    { name: "Online evenet", link: "#" },
-    { name: "Nostrud exercitation", link: "#" },
+    { name: "Join Volunteer", link: "#" },
+    { name: "Our Events", link: "#" },
+    { name: "Family Sponser", link: "#" },
   ];
   export const COMPANY = [
     { name: "Home", link: "#" },
     { name: "About us", link: "#" },
-    { name: "Join Volunteer", link: "#" },
+    { name: "Introduction", link: "#" },
     { name: "Customer Stories", link: "#" },
     { name: "Online communities", link: "#" },
   ];
   export const SUPPORT = [
-    { name: "Documentation", link: "#" },
-    { name: "Tutorials & guides", link: "#" },
-    { name: "Webinars", link: "#" },
-    { name: "Open-source", link: "#" },
+    { name: "Contact Us", link: "#" },
+    { name: "Donate Here", link: "#" },
+    // { name: "Webinars", link: "#" },
+    // { name: "Open-source", link: "#" },
   ];
   
   export const Icons = [

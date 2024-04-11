@@ -20,8 +20,8 @@ export const links = [
         {
           Head: "Completed Projects",
           sublink: [
-            { name: "T-Shoes Distribution Project", link: "/" },
-            // { name: "Casual shirts", link: "/" },
+            { name: "Shoes Distribution", link: "/" },
+            { name: "Earthquake Relief Efforts", link: "/earthquake-relief" },
             // { name: "formal shirts", link: "/" },
             // { name: "formal shirts", link: "/" },
             // { name: "formal shirts", link: "/" },

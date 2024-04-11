@@ -6,28 +6,28 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white">
-      <div className="flex items-center font-medium justify-around">
+    <nav className="bg-white fixed lg:relative w-full z-50">
+      <div className="flex bg-white items-center font-medium justify-around">
         <div className="z-50 px-4 py-2 md:py-0 md:w-auto w-full flex justify-between">
           <img src={Logo} alt="logo" className="md:cursor-pointer h-12 md:h-16" />
           <div className="text-3xl flex items-center md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex mb-0 hidden uppercase items-center gap-8 font-montserrat">
+        <ul className="md:flex mb-0 hidden uppercase items-center sm:gap-2 gap-8 font-poppins">
           <li>
-            <Link to="/" className="py-7 text-xl text-black no-underline px-3 inline-block">
+            <Link to="/" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               Home
             </Link>
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className="py-7 text-xl text-black no-underline px-3 inline-block">
+            <Link to="/about" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               About
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="py-7 text-xl text-black no-underline px-3 inline-block">
+            <Link to="/contact" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               Contact
             </Link>
           </li>

@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div className="z-50">
           <div className="px-3 py-4 text-left md:cursor-pointer group">
             <h1
-              className="text-base font-medium lg:text-xl font-n flex justify-between items-center mb-0 md:pr-0 pr-5 group"
+              className="text-base font-medium lg:text-lg font-n flex justify-between items-center mb-0 md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -35,13 +35,13 @@ const NavLinks = () => {
                   <div className="py-2">
                     <div
                       className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-white rotate-45"
+                    mt-1 bg-slate-50 lg:bg-wow rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5  grid grid-cols-3 gap-10">
+                  <div className="bg-slate-50 lg:bg-wow p-5  grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-normal lg:font-semibold">
+                        <h1 className="text-lg  font-normal lg:font-semibold">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (

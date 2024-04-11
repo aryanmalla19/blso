@@ -13,7 +13,7 @@ function Need() {
         <h2 className='text-base lg:text-xl font-lato'>What we do</h2>
         <h1 className='text-xl lg:text-2xl font-semibold'>We do it for People in Need</h1>
         </div>
-        <div className='flex lg:flex-row flex-col flex-wrap'>
+        <div className='flex sm:flex-row sm:justify-between lg:flex-row flex-col flex-wrap'>
         <NeedCard logo={<FaHandHoldingMedical/>} title="Medicine Help" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
         <NeedCard logo={<IoWater />} title="Water Delivery" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
         <NeedCard logo={<MdBabyChangingStation/>} title="We Care About" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
