@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white fixed lg:relative w-full z-50">
+    <nav className="bg-white mb-20 lg:mb-0 border-b top-0 fixed lg:relative w-full z-50">
       <div className="flex bg-white items-center font-medium justify-around">
         <div className="z-50 px-4 py-2 md:py-0 md:w-auto w-full flex justify-between">
           <img src={Logo} alt="logo" className="md:cursor-pointer h-12 md:h-16" />

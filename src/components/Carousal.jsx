@@ -1,7 +1,6 @@
 import React from 'react';
-// Carousel.js or any component using Bootstrap JS
 import '../App.css'
-import Button from './Button';
+import { Link } from 'react-router-dom';
 class Carousel extends React.Component {
 
   render() {
@@ -19,9 +18,9 @@ class Carousel extends React.Component {
             <div className="carousel-caption top-0 mt-4">
               <p className="mt-5 text-base lg:text-2xl text-uppercase">Everyone can help</p>
               <h1 className="display-1 text-2xl lg:text-4xl fw-bolder text-capitalize">BLSO Nepal</h1>
-               <div className='my-10'>
-                <Button/>
-                </div> 
+              <Link to="/donation">
+              <button className="btn btn-primary px-4 py-2 fs-5 mt-5" >Donate now</button>
+              </Link>
             </div>
           </div>
           <div className="carousel-item c-item transition-opacity duration-1000 ease-in-out">
@@ -29,9 +28,9 @@ class Carousel extends React.Component {
             <div className="carousel-caption top-0 mt-4">
               <p className="text-uppercase text-base lg:text-2xl mt-5">Transforming Little Lives, One Support at a Time</p>
               <p className="display-1 text-2xl lg:text-4xl fw-bolder text-capitalize">Give love Once</p>
-              <div className='my-10'>
-                <Button/>
-                </div> 
+              <Link to='/sponser-tara'>
+              <button className="btn btn-primary px-4 py-2 fs-5 mt-5" >Save a Child</button>
+              </Link>
             </div>
           </div>
           <div className="carousel-item c-item transition-opacity duration-1000 ease-in-out">

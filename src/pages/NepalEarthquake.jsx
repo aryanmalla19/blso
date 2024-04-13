@@ -1,6 +1,6 @@
 import React from 'react'
 import AllEvents from '../components/AllEvents'
-
+import photo from '../assets/earthquake-nepal.jpg'
 function NepalEarthquake() {
     const arr = [
         {
@@ -42,7 +42,7 @@ function NepalEarthquake() {
     ]
   return (
     <div>
-        <AllEvents title="Nepal Earthquake Relief and Recovery" arr={arr} img="https://www.blsonepal.org.np/uploads/medium/earthquake-nepal-BYXBQ5ep6Or2bL7CdrtMO3UZyOBCiunDJrYSWH94.jpg"/>
+        <AllEvents title="Nepal Earthquake Relief and Recovery" arr={arr} img={photo}/>
     </div>
   )
 }

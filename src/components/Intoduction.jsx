@@ -2,7 +2,7 @@ import React from 'react'
 
 function Intoduction() {
   return (
-    <div className='w-11/12 mx-auto my-4 lg:my-10'>
+    <div id='introduction' className='w-11/12 mt-20 lg:mt-0 mx-auto my-4 lg:my-10'>
         <h1 className='text-center text-xl lg:text-3xl lg:mb-4 text-second'>About Us</h1>
         <div className='flex flex-col lg:flex-row justify-between'>
             <div className='lg:w-[48%]'>

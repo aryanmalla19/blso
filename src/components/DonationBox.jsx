@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CustomBox from './CustomBox'
 import qr from "../assets/image.png"
 function DonationBox() {
+    const [name,setName] = useState("COPY ACCOUNT DETAILS");
+    const handleClick = () => {
+        // Copy text to clipboard
+        navigator.clipboard.writeText(`Account Number = 01201020256278
+        Beneficiar Name = Better Life Social Organization 
+        Address = Putalisadk Branch, Kathamndu, Nepal 
+        `)
+            .then(() => {
+                setName("Text copied !!")
+                setTimeout(()=>{
+                    setName("COPY ACCOUNT DETAILS")
+                },2500)              
+            })
+            .catch((error) => {
+                console.error('Failed to copy text: ', error);
+            });
+    };
     return (
         <div className='w-11/12 lg:w-10/12 font-lato my-10 flex flex-col mx-auto'>
             <div className='bg-wow flex lg:flex-row flex-col py-10 justify-center rounded-sm p-3 lg:p-5'>
@@ -22,7 +39,6 @@ function DonationBox() {
                             <img className='w-3/12' src="https://seeklogo.com/images/K/khalti-logo-F0B049E67E-seeklogo.com.png" alt="" />
                             <img className='w-3/12' src="https://seeklogo.com/images/F/fonepay-logo-C9B7151FD6-seeklogo.com.png" alt="" />
                         </div>
-
                     </div>
                 </div>
                 <div className='flex flex-col mt-4 lg:mt-0 lg:w-5/12'>
@@ -34,8 +50,8 @@ function DonationBox() {
                     <pre className='mb-1'>Beneficiar Name    Better Life Social Organization </pre>
                     <pre className='mb-1'>Address            Putalisadk Branch, Kathamndu, Nepal </pre>
                     <pre></pre>
-                    <div className='mt-2'>
-                        <CustomBox name="COPY ACCOUNT DETAILS" />
+                    <div onClick={()=>{handleClick()}} className='mt-2'>
+                        <CustomBox name={name} />
                     </div>
                 </div>
             </div>

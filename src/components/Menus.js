@@ -4,22 +4,21 @@ export const PRODUCTS = [
     { name: "Easy Content", link: "#" },
   ];
   export const RESOURCES = [
-    { name: "Save A Child", link: "#" },
-    { name: "Use cases", link: "#" },
+    { name: "Save A Child", link: "/sponser-tara" },
     { name: "Join Volunteer", link: "#" },
-    { name: "Our Events", link: "#" },
-    { name: "Family Sponser", link: "#" },
+    { name: "Our Events", link: "#events" },
+    { name: "Family Sponser", link: "/family-support-project" },
   ];
   export const COMPANY = [
     { name: "Home", link: "#" },
-    { name: "About us", link: "#" },
-    { name: "Introduction", link: "#" },
-    { name: "Customer Stories", link: "#" },
-    { name: "Online communities", link: "#" },
+    { name: "About us", link: "#about" },
+    { name: "Introduction", link: "#introduction" },
+    // { name: "Customer Stories", link: "#" },
+    // { name: "Online communities", link: "#" },
   ];
   export const SUPPORT = [
-    { name: "Contact Us", link: "#" },
-    { name: "Donate Here", link: "#" },
+    { name: "Contact Us", link: "/contact" },
+    { name: "Donate Here", link: "/donation" },
     // { name: "Webinars", link: "#" },
     // { name: "Open-source", link: "#" },
   ];

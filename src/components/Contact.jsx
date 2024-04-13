@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { CiMail, CiPhone } from "react-icons/ci";
 import Social from './Social';
 function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when component mounts
+    }, []); // Empty dependency array ensures this effect runs only once, similar to componentDidMount
+
     return (
+        
         <div className='flex lg:flex-row flex-col my-10 font-poppins justify-between w-11/12 mx-auto'>
             <div className='flex flex-col lg:w-5/12'>
                 <h2 className='text-base lg:text-xl font-lato'>Contact</h2>

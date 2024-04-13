@@ -3,7 +3,7 @@ import Button from './Button';
 
 function About() {
   return (
-    <div className='w-11/12 font-poppins lg:py-10 mx-auto flex lg:flex-row flex-col justify-evenly'>
+    <div id='about' className='w-11/12 font-poppins lg:py-10 mx-auto flex lg:flex-row flex-col justify-evenly'>
         <div className='flex w-full lg:w-6/12 flex-col'>
             <h2 className='text-base lg:text-xl text-first font-meidum font-lato'>About Us</h2>
             <h1 className='text-xl lg:text-2xl text-second font-semibold'>Help People,<br/>Our Main Goals</h1>
