@@ -18,7 +18,6 @@ function DonationBox() {
             })
     };
     return (
-        <Reveal>
 
         <div className='w-11/12 lg:w-10/12 font-lato my-10 flex flex-col mx-auto'>
             <div className='bg-wow mt-10 lg:mt-0 flex lg:flex-row flex-col py-10 justify-center rounded-sm p-3 lg:p-5'>
@@ -56,7 +55,6 @@ function DonationBox() {
                 </div>
             </div>
         </div>
-        </Reveal>
     )
 }
 
