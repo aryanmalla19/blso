@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Sponser from '../components/Sponser'
 import Help from '../components/Help'
 import SponserOtherChild from '../components/SponserOtherChild'
@@ -7,6 +7,10 @@ import child2 from '../assets/child2.jpg'
 import child3 from '../assets/child3.jpg'
 import child4 from '../assets/child4.jpg'
 function SponserKalawati() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when component mounts
+}, []); // Empty dependency array ensures this effect runs only once, similar to componentDidMount
+
     const eventData = [
         {
           title: "Pokharel",

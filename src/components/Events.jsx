@@ -51,7 +51,7 @@ const eventData = [
     img: teacher_training,
     message: "The goal of this project is to provide teacher training to community-based teachers in Sarlahi, Morang, Jhapa, Panchthar  to improve the quality of education for students in rural communities.",
     category: '3',
-    link: '/teacher-training-project'
+    link: '/education-project'
   },
   {
     title: "Shoes Distribution Project",

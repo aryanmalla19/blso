@@ -8,7 +8,7 @@ export const links = [
           sublink: [
             { name: "Education Project", link: "/education-project" },
             { name: "Health Support Saving Lives Together", link: "/" },
-            { name: "Agriculture", link: "/" },
+            { name: "Agriculture Project", link: "/agriculture-project" },
             { name: "Group Birthday Project", link: "/birthday-project" },
             { name: "Education Martial Sarlahi", link: "/" },
             { name: "Home Guidance Class", link: "/" },

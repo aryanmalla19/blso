@@ -10,7 +10,7 @@ function Contact() {
         
         <div className='flex lg:flex-row flex-col my-10 font-poppins justify-between w-11/12 mx-auto'>
             <div className='flex flex-col lg:w-5/12'>
-                <h2 className='text-base lg:text-xl font-lato'>Contact</h2>
+                <h2 className='text-base lg:text-xl font-lato mt-10 lg:mt-0'>Contact</h2>
                 <h1 className='text-xl lg:text-3xl font-medium text-second'>Get in Touch With Us</h1>
                 <p className='text-sm lg:text-base'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim porro pariatur laudantium recusandae impedit sunt quidem ut culpa optio illo, maiores cum nobis expedita, corporis necessitatibus, quod ab. Animi, iste!</p>
                 <div className='flex flex-col'>

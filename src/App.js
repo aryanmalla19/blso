@@ -20,6 +20,10 @@ import SponserChild from './pages/SponserChild'
 import SponserPokhrel from './pages/SponserPokhrel';
 import SponserKalawati from './pages/SponserKalawati';
 import SponserAnsh from './pages/SponserAnsh';
+import volunter_photo from './assets/volunteer.jpg'
+import tent_photo from './assets/tent.jpg'
+import agriculture_photo from './assets/agricultre.jpg'
+
 function App() {
   const shoes_dis = [
     {
@@ -219,7 +223,80 @@ const birthday_arr = [
       Join the Group Birthday Project today and help make a difference in the lives of underprivileged children. Your participation as a donor or volunteer will create lasting memories and bring happiness to those who need it the most. Together, we can ensure that every child's birthday is a special occasion filled with love, joy, and meaningful gifts.`,
   }
 ]
+const vol_arr = [
+  {
+      "name":"Project Name: Volunteer Nepal",
+      "message":"",
+  },
+  {
+      "name":"Volunteer Areas: Education, Health, Agriculture, Office Management, and More",
+      "message":``
+  },
+  {
+    "name":"Why Volunteer with Better Life Social Organization?",
+    "message":`Volunteering with Better Life Social Organization (BLSO) Nepal offers a unique opportunity to make a positive impact in the lives of others. With years of experience in the field, our staff and volunteers are kind, friendly, and highly experienced. By joining our volunteer program, you become part of a dedicated team working towards creating a better future for the communities we serve.`
+  },
+  {
+    "name":"Date of Volunteering",
+    "message":"Volunteer placements are available every week and every month, but it's important to book your spot at least one week in advance. This allows us to ensure proper arrangements are made for your meaningful volunteer experience."
+  },
+  {
+    "name":"Who Can Volunteer",
+    "message":`Volunteering with BLSO Nepal is open to any citizen above 18 years of age who is in good health and physically fit. We welcome individuals from all walks of life who have the passion and commitment to contribute to our projects and make a difference in the lives of others.
 
+    Duration of Volunteer Placement:
+    The duration of your volunteer placement can be tailored to your availability and preferences. Whether you can volunteer for a single day or commit to a period of three months, we can accommodate your requirements and provide you with a meaningful experience.`
+  },
+  {
+    "name":"Volunteer Fees",
+    "message":`At BLSO Nepal, we believe in providing volunteering opportunities free of cost. However, as a volunteer, you are responsible for covering your own expenses, including food, accommodation, healthcare, and transportation fees. Our team can assist you in finding suitable accommodations, whether it's a hotel or a low-cost option recommended by our organization for short or long stays. Please discuss your preferences with our staff.`
+  },
+  {
+    "name":"Supporting a Project",
+    "message":"As a volunteer, you have the option to support our projects or make donations according to your wish. Your contribution can make a significant difference in the lives of the communities we serve, helping us further our mission and bring about positive change."
+  },
+  {
+    "name":"Benefits of Volunteering",
+    "message":"Volunteering with BLSO Nepal offers numerous benefits. By immersing yourself in the local community, you have the opportunity to build strong relationships, gain a deeper understanding of Nepalese culture, and experience the daily lifestyle firsthand. You become a valued member of the Better Life team, making a positive impact and leaving a lasting impression. Additionally, after your volunteer experience, you can explore Nepal as a tourist, although the expenses for your travel would be your responsibility."
+  }
+]
+const tent_arr = [
+  {
+      "name":"Project Name: Tent Provision for 20 Homeless Riverside Families"
+  },
+  {
+      "name":"Date: April 25, 2015",
+    },
+  {
+    "name":"Donation By: Tukumi Katyama"
+  },
+  {
+    "name":"Summary",
+    "message":`The Better Life Social Organization, with the generous donation from Tukumi Katyama, initiated a project to provide tents for 20 homeless families living by the riverside. This project aimed to offer temporary shelter and improve the living conditions of the vulnerable families in need.
+
+    Description: In April 2015, the Better Life Social Organization embarked on a project to provide temporary shelter for 20 homeless families residing by the riverside. The project aimed to address the immediate housing needs of these vulnerable families and improve their living conditions.
+    
+    The initiative was made possible by the generous donation from Tukumi Katyama, whose compassionate contribution supported the procurement of the tents. Tukumi Katyama's act of kindness played a pivotal role in enabling the Better Life Social Organization to fulfill its mission of helping those in need.
+    
+    The tents provided through this project offered a safe and secure living environment for the homeless families. They offered protection against the elements and created a temporary haven for the families to regain a sense of stability and security.
+    
+    The Better Life Social Organization worked diligently to identify and select the 20 most vulnerable families in need of shelter. Through careful assessment and collaboration with local authorities, the organization ensured that the tents reached those who required them the most.
+    
+    The provision of the tents not only offered physical shelter but also provided a glimmer of hope for the families. It gave them an opportunity to rebuild their lives and work towards a better future.
+    
+    The Better Life Social Organization expresses profound gratitude to Tukumi Katyama for their generous donation, which made the Tent Provision project possible. Their support exemplifies the spirit of compassion and solidarity, making a significant difference in the lives of 20 homeless riverside families.
+    
+    This project stands as a testament to the Better Life Social Organization's commitment to addressing the immediate needs of vulnerable individuals and families, while also striving to create lasting change in their lives.
+    
+    The Better Life Social Organization extends its heartfelt appreciation to Tukumi Katyama for their contribution, as well as to all the dedicated individuals who worked tirelessly to ensure the success of the project. Together, they have made a positive impact on the lives of the homeless families, offering them temporary shelter and a renewed sense of hope for a brighter future.`
+  }
+]
+const argi_arr = [
+  {
+    "name":"",
+    "message":``
+  },
+]
   return (
     <>
       <Navbar/>
@@ -234,9 +311,12 @@ const birthday_arr = [
         <Route path='/home-guidance' element={<AllEvents img={home_guidance_photo} title="Home Guidance Class project" arr={home_guidance}/>} />
         <Route path='/pure-drinking-water' element={<AllEvents img={drink_waterr} title="Pure Drinking Water Project at School" arr={drink_water}/>} />
         <Route path='/earthquake-relief' element={<AllEvents img={earthquake} title="Earthquake Relief Efforts" arr={earthquake_relief}/>} />
+        <Route path='/volunteer-project' element={<AllEvents img={volunter_photo} title="Volunteer Opportunity Nepal" arr={vol_arr}/>} />
         <Route path='/emergency-foods' element={<AllEvents img={emergency_fds} title="Earthquake Relief Efforts" arr={emergency_food}/>} />
+        <Route path='/tent-provision-project' element={<AllEvents img={tent_photo} title="Tent Provision for 20 Homeless Riverside Families" arr={tent_arr}/>} />
         <Route path='/family-support-project' element={<AllEvents img={poor_fam_photo} arr={poor_fam_arr} title="Poor Families sponsor program" />} />
         <Route path='/birthday-project' element={<AllEvents img={birth_photo} arr={birthday_arr} title="Group Birthday Project" />} />
+        <Route path='/agriculture-project' element={<AllEvents img={agriculture_photo} arr={argi_arr} title="Agricultures Project with BLSO" />} />
         <Route path='/sponser-tara' element={<SponserChild/>} />
         <Route path='/sponser-pokhrel' element={<SponserPokhrel/>} />
         <Route path='/sponser-kalawati' element={<SponserKalawati/>} />

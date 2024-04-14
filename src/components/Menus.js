@@ -1,7 +1,8 @@
 export const PRODUCTS = [
     { name: "Education project", link: "/education-project" },
-    { name: "Visual Studio X", link: "#" },
-    { name: "Easy Content", link: "#" },
+    { name: "Agriculture project", link: "/agriculture-project" },
+    { name: "POOR FAMILY SPONSOR PROGRAM", link: "/family-support-project" },
+    { name: "Earthquake relief program", link: "/nepal-earthquake" },
   ];
   export const RESOURCES = [
     { name: "Save A Child", link: "/sponser-tara" },

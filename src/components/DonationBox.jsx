@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import CustomBox from './CustomBox'
 import qr from "../assets/image.png"
+import Reveal from './Reveal';
 function DonationBox() {
     const [name,setName] = useState("COPY ACCOUNT DETAILS");
     const handleClick = () => {
@@ -15,13 +16,12 @@ function DonationBox() {
                     setName("COPY ACCOUNT DETAILS")
                 },2500)              
             })
-            .catch((error) => {
-                console.error('Failed to copy text: ', error);
-            });
     };
     return (
+        <Reveal>
+
         <div className='w-11/12 lg:w-10/12 font-lato my-10 flex flex-col mx-auto'>
-            <div className='bg-wow flex lg:flex-row flex-col py-10 justify-center rounded-sm p-3 lg:p-5'>
+            <div className='bg-wow mt-10 lg:mt-0 flex lg:flex-row flex-col py-10 justify-center rounded-sm p-3 lg:p-5'>
                 <div className='flex lg:w-5/12 mr-5 flex-col'>
                     <h1 className='text-xl lg:text-2xl mb-3 font-medium'>Donate Here</h1>
                     <p></p>
@@ -56,6 +56,7 @@ function DonationBox() {
                 </div>
             </div>
         </div>
+        </Reveal>
     )
 }
 

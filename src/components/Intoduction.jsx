@@ -3,7 +3,7 @@ import React from 'react'
 function Intoduction() {
   return (
     <div id='introduction' className='w-11/12 mt-20 lg:mt-0 mx-auto my-4 lg:my-10'>
-        <h1 className='text-center text-xl lg:text-3xl lg:mb-4 text-second'>About Us</h1>
+        <h1 className='text-center text-xl lg:text-3xl lg:mb-4 lg:mt-0 mt-20 text-second'>About Us</h1>
         <div className='flex flex-col lg:flex-row justify-between'>
             <div className='lg:w-[48%]'>
             <img className='rounded ' src="https://www.blsonepal.org.np/uploads/medium/istockphoto-1147606821-612x612-IqiPZ2GNBhfL3KGwfpvasoSDEIZYSSqn2z6x5Wjp.jpg" alt="" />

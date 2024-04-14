@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
 import '../App.css'
-const NavLinks = () => {
+const NavLinks = ({ setOpen, open }) => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
@@ -47,6 +47,9 @@ const NavLinks = () => {
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm font-[40px] text-gray-600 my-2.5">
                             <Link
+                            onClick={() => {
+                              setOpen(prevOpen => !prevOpen); // Toggle the open state
+                            }}
                               to={slink.link}
                               className="hover:text-primary"
                             >
