@@ -48,7 +48,7 @@ const NavLinks = ({ setOpen, open }) => {
                           <li className="text-sm font-[40px] text-gray-600 my-2.5">
                             <Link
                             onClick={() => {
-                              setOpen(prevOpen => !prevOpen); // Toggle the open state
+                              setOpen(!open); // Toggle the open state
                             }}
                               to={slink.link}
                               className="hover:text-primary"
@@ -100,7 +100,7 @@ const NavLinks = ({ setOpen, open }) => {
                     }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li className="py-3 text-blak pl-14">
+                      <li onClick={()=>{setOpen(!open)}} className="py-3 text-blak pl-14">
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}
