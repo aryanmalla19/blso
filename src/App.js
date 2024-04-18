@@ -23,7 +23,9 @@ import SponserAnsh from './pages/SponserAnsh';
 import volunter_photo from './assets/volunteer.jpg'
 import tent_photo from './assets/tent.jpg'
 import agriculture_photo from './assets/agricultre.jpg'
-
+import notebook_photo from './assets/notebook.jpg'
+import support_teacher_photo from './assets/supporting-teacher.jpg'
+import aid_photo from './assets/rice.jpg'
 function App() {
   const shoes_dis = [
     {
@@ -297,6 +299,78 @@ const argi_arr = [
     "message":``
   },
 ]
+const note_arr = [
+  {
+    "name":"Note book project",
+    "message":`Better Life Social Organization (BLSO) is dedicated to helping underprivileged children in rural villages of eastern Nepal who lack access to education. Many of these children face difficulties obtaining essential educational materials such as books, notebooks, pencils, and school bags, as their parents cannot afford to buy these items. Since our establishment in 2011, BLSO Nepal has been working towards supporting children in public schools who are unable to attend classes due to financial constraints. We firmly believe that education is the key to a brighter future for every child.
+
+    We extend a heartfelt invitation to donors to join us in our mission to assist these needy children. Your generous contributions can include books, notebooks, bags, clothing, and school fees according to your preferences. Your support will bring immense joy to these children and open doors to promising opportunities in their futures.`
+  },
+]
+const sup_teacher_arr = [
+  {
+    "name":"Introduction",
+    "message":`The Education Empowerment Initiative aims to address the critical issue of limited teacher salaries in community and private schools, thereby ensuring quality education and creating brighter futures for children. This project seeks support from individual donors and organizations to contribute to teacher salary support, enabling schools to attract and retain competent teachers.`
+  },
+  {
+    "name":"Problem Statement",
+    "message":`In many community and private schools, there is a shortage of teachers, leading to one teacher handling multiple subjects. Due to financial constraints, some schools are unable to afford the salaries of additional teachers, leaving them understaffed and overburdened. Consequently, teachers are forced to work without proper compensation, negatively impacting their motivation and dedication.`
+  },
+  {
+    "name":"Objectives",
+    "message":`Ensure quality education by hiring additional teachers to reduce workload and enhance subject expertise.
+    Support the salaries of teachers in schools facing financial constraints to prevent them from working without proper compensation.
+    Promote a positive learning environment by enabling schools to attract and retain talented teachers.
+    Improve students' academic performance and overall educational experience.`
+  },
+  {
+    "name":"Strategy and Implementation",
+    "message":`a. Identifying schools in need: Conduct surveys and collaborate with education authorities to identify community and private schools experiencing teacher shortages and financial limitations.
+    b. Fundraising campaign: Launch a comprehensive fundraising campaign targeting individual donors and organizations passionate about education and the welfare of teachers.
+    
+    c. Collaboration with stakeholders: Establish partnerships with local NGOs, government agencies, and corporate entities to maximize outreach and funding opportunities.
+    
+    d. Transparent allocation of funds: Implement a transparent and accountable system to allocate funds to schools based on their needs and the number of teachers to be supported.
+    
+    e. Monitoring and evaluation: Regularly assess the impact of the project through performance evaluations, student progress tracking, and feedback mechanisms.`
+  },
+  {
+    "name":"Success Stories",
+    "message":`Highlight the success of the Sarlahi Teacher Support Project, which achieved improved education quality and created happy learning environments. Share testimonials from students, teachers, and parents who benefited from the project.`
+  },
+  {
+    "name":"Home Guidance Classes",
+    "message":`Emphasize the success of the Home Guidance Class project in Morang, where students received personalized tutoring and mentorship, leading to significant academic progress and increased motivation. Showcase individual success stories and academic achievements.`
+  },
+  {
+    "name":"Call to Action",
+    "message":`Invite individual donors and organizations to support the Education Empowerment Initiative by making financial contributions toward teacher salary support. Emphasize the profound impact their support can have on the future of countless children and the education system as a whole.`
+  },
+  {
+    "name":"Conclusion",
+    "message":`The Education Empowerment Initiative seeks to alleviate the financial burden faced by community and private schools, ensuring quality education through adequate teacher salaries. By supporting this project, donors and organizations contribute to shaping a brighter future for children, enabling them to receive a high-quality education and empowering them to achieve their dreams. Together, we can make a meaningful difference in the lives of teachers and students alike.`
+  },
+]
+const aid_arr = [
+  {
+    "name":"Rice, Oil, and Emergency Aid",
+    "message":`we proudly share the remarkable initiative of providing emergency support to the Kusunti-13 community in Lalitpur. On June 6, 2021, in collaboration with the Rotary Club USA, we distributed essential supplies, including rice, oil, and emergency support, to 150 families in need.
+
+    At our organization, we understand the critical importance of immediate assistance during challenging times. The COVID-19 pandemic has brought about unprecedented hardships, particularly for vulnerable communities. Our mission is to extend a helping hand and provide essential support to those who are facing difficulties in accessing basic necessities.
+    
+    Thanks to the generous partnership with the Rotary Club USA, we were able to donate rice packs, salt, oil, and vital medicines to the families residing in Kusunti-13, Lalitpur. This collaboration exemplifies the power of global solidarity and the impact that can be achieved when communities come together to support one another.
+    
+    The distribution of rice packs not only addresses the immediate food needs of these families but also ensures their sustenance for an extended period. We recognize that access to nutritious food is a fundamental right, and our aim is to alleviate hunger and promote overall well-being within the community.
+    
+    In addition to the provision of food supplies, we understand the importance of comprehensive emergency support. This includes essential items such as salt, oil, and medicines, which are vital for maintaining health and ensuring the overall welfare of individuals and families.
+    
+    Our heartfelt gratitude goes to the Rotary Club USA for their unwavering support and commitment to making a difference in the lives of those in need. Their contribution has played a significant role in addressing the immediate challenges faced by the community in Kusunti-13.
+    
+    We believe that true transformation occurs through collective effort, and we invite you to join us in our mission. Together, we can make a lasting impact on the lives of individuals and communities in need. Your support, whether through donations, volunteerism, or spreading awareness, can create a ripple effect of positive change and bring hope to those facing adversity.
+    
+    Explore our website to learn more about our initiatives, impact stories, and how you can contribute to our cause. Together, let us build a stronger, more compassionate world where everyone has access to essential resources and support, regardless of their circumstance`
+  }
+]
   return (
     <>
       <Navbar/>
@@ -317,6 +391,9 @@ const argi_arr = [
         <Route path='/family-support-project' element={<AllEvents img={poor_fam_photo} arr={poor_fam_arr} title="Poor Families sponsor program" />} />
         <Route path='/birthday-project' element={<AllEvents img={birth_photo} arr={birthday_arr} title="Group Birthday Project" />} />
         <Route path='/agriculture-project' element={<AllEvents img={agriculture_photo} arr={argi_arr} title="Agricultures Project with BLSO" />} />
+        <Route path='/notebook-project' element={<AllEvents img={notebook_photo} arr={note_arr} title="Note book project" />} />
+        <Route path='/supporting-teacher' element={<AllEvents img={support_teacher_photo} arr={sup_teacher_arr} title="Supporting Teacher Salaries for Quality Education" />} />
+        <Route path='/emergency-aid' element={<AllEvents img={aid_photo} arr={aid_arr} title="Rice, Oil, and Emergency Aid" />} />
         <Route path='/sponser-tara' element={<SponserChild/>} />
         <Route path='/sponser-pokhrel' element={<SponserPokhrel/>} />
         <Route path='/sponser-kalawati' element={<SponserKalawati/>} />

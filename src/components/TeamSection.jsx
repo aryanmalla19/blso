@@ -2,7 +2,8 @@ import React from 'react';
 import './TeamSection.css'
 // Import Font Awesome CSS if you're not using the CDN link
 // import 'font-awesome/css/font-awesome.min.css';
-
+import dipak from '../assets/dipak.jpg'
+import sharmila from '../assets/sharmila.jpg'
 const TeamSection = () => {
     return (
         <div className="wrapper">
@@ -16,12 +17,12 @@ const TeamSection = () => {
                 <div className="card">
 
                     <div className="imbBx">
-                        <img src="https://www.blsonepal.org.np/uploads/medium/gokul-wnjTI9FaPqdLwOcOczkrwhzVvFS7f778bGAr8jwW.jpg" alt="" />
+                        <img src={dipak} alt="" />
                     </div>
 
                     <div className="content">
                         <div className="contentBx">
-                            <h3>James Henry <br /><span>Web Analyst</span></h3>
+                            <h3>Dipak Niroula <br /><span>Former Founder</span></h3>
                         </div>
                     </div>
 
@@ -29,12 +30,12 @@ const TeamSection = () => {
                 <div className="card">
 
                     <div className="imbBx">
-                        <img src="https://www.blsonepal.org.np/uploads/medium/gokul-wnjTI9FaPqdLwOcOczkrwhzVvFS7f778bGAr8jwW.jpg" alt="" />
+                        <img src={sharmila} alt="" />
                     </div>
 
                     <div className="content">
                         <div className="contentBx">
-                            <h3>James Henry <br /><span>Web Analyst</span></h3>
+                            <h3>Sharmila Karki<br /><span>Former Co-founder</span></h3>
                         </div>
                     </div>
 
@@ -47,11 +48,13 @@ const TeamSection = () => {
 
                     <div className="content">
                         <div className="contentBx">
-                            <h3>James Henry <br /><span>Web Analyst</span></h3>
+                            <h3>Mandip Karki<br /><span>Board Member</span></h3>
                         </div>
                     </div>
 
                 </div>
+
+                
 
                 {/* Repeat similar structure for other team members */}
 
