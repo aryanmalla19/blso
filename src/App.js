@@ -33,6 +33,7 @@ import Message from './components/Message';
 import Gallery from './components/Gallery';
 import bhupal from "./assets/bhupall1.jpg"
 import bhawana from './assets/bhawana1.jpg'
+import TypoInRes from './components/TypoInRes';
 function App() {
   const shoes_dis = [
     {
@@ -441,7 +442,7 @@ const aid_arr = [
         <Route path='/our-mission' element={<MissionGoal/>} />
         <Route path='/gallery' element={<Gallery/>} />
         <Route path='/resources' element={<>
-          
+        <TypoInRes/>
         <FAQ/>
         </>} />
       </Routes>
