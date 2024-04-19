@@ -408,7 +408,6 @@ const aid_arr = [
         <Route path='/sponser-kalawati' element={<SponserKalawati/>} />
         <Route path='/sponser-ansh' element={<SponserAnsh/>} />
         <Route path='/our-team' element={<>
-          <TeamSection/>
           <Message name="Bhupal Niroula" post="Founder" img={bhupal} message={[
           {
             "message":"Namaste All, Since 2009, I have dedicated myself to social work, striving to provide support to the homeless, orphanages, and underprivileged children in need. Throughout this journey, I have witnessed the struggles faced by those who lack access to basic necessities, especially education. Additionally, I have been actively involved in providing aid during emergencies such as earthquakes, floods, and other natural disasters."
@@ -436,7 +435,9 @@ const aid_arr = [
           {
             "message":"Let us come together, hand in hand, to build a better future for all. Thank you for considering our mission and for your willingness to make a difference. Together, we can create a world where every child has the opportunity to thrive and smile."
           }
-        ]} />
+        ]} 
+        />
+          <TeamSection/>
         </>
         }/>
         <Route path='/our-mission' element={<MissionGoal/>} />

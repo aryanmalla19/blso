@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-
+import photo from '../assets/image (3).jpg'
 function About() {
   return (
     <div id='about' className='w-11/12 font-poppins lg:py-10 mx-auto flex lg:flex-row flex-col justify-evenly'>
@@ -13,10 +13,11 @@ function About() {
             </div>
         </div>
         <div className='w-full relative overflow-hidden mt-3 lg:mt-0 lg:w-5/12'>
-          <div className='w-full h-full overflow-hidden meoww transition-all duration-700 ease-out cursor-pointer' style={{ backgroundImage: "url('https://www.blsonepal.org.np/uploads/medium/istockphoto-1170754176-612x612-QDJPRAtUEEPn9JL7GTbxglrexARMXo1yWCg7I9JW.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          {/* <div className='w-full h-full overflow-hidden meoww transition-all duration-700 ease-out cursor-pointer' style={{ backgroundImage: `url(${photo})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
 
-          </div>
+          </div> */}
           {/* No need for the <img> tag */}
+          <img src={photo} className='rounded' alt="" />
         </div>
     </div>
   );
