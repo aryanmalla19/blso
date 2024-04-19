@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import CustomBox from './CustomBox'
 import qr from "../assets/image.png"
-import Reveal from './Reveal';
+import western from '../assets/western.jpg'
 function DonationBox() {
     const [name,setName] = useState("COPY ACCOUNT DETAILS");
     const handleClick = () => {
         // Copy text to clipboard
-        navigator.clipboard.writeText(`Account Number = 01201020256278
-        Beneficiar Name = Better Life Social Organization 
-        Address = Putalisadk Branch, Kathamndu, Nepal 
-        `)
+        navigator.clipboard.writeText(`01201020256278`)
             .then(() => {
                 setName("Text copied !!")
                 setTimeout(()=>{
@@ -34,9 +31,9 @@ function DonationBox() {
                     <div>
                         <h1 className='text-xl lg:text-2xl font-medium my-4'>Accepted Payment Methods</h1>
                         <div className='flex lg:w-10/12 justify-evenly'>
-                            <img className='w-3/12' src="https://seeklogo.com/images/E/esewa-logo-DA36F8FD2F-seeklogo.com.png" alt="" />
-                            <img className='w-3/12' src="https://seeklogo.com/images/K/khalti-logo-F0B049E67E-seeklogo.com.png" alt="" />
-                            <img className='w-3/12' src="https://seeklogo.com/images/F/fonepay-logo-C9B7151FD6-seeklogo.com.png" alt="" />
+                            <img className='w-4/12' src="https://seeklogo.com/images/E/esewa-logo-DA36F8FD2F-seeklogo.com.png" alt="" />
+                            {/* <img className='w-3/12' src="https://seeklogo.com/images/K/khalti-logo-F0B049E67E-seeklogo.com.png" alt="" /> */}
+                            <img className='w-4/12' src={western} alt="" />
                         </div>
                     </div>
                 </div>
@@ -47,6 +44,7 @@ function DonationBox() {
                     <h6 className='mb-2 text-base font-medium'>NEPAL INVESTMENT MEGA BANK LIMITED</h6>
                     <pre className='mb-1'>Account Number     01201020256278</pre>
                     <pre className='mb-1'>Beneficiar Name    Better Life Social Organization </pre>
+                    <pre className='mb-1'>Swift Code:        NIBLNPKT</pre>
                     <pre className='mb-1'>Address            Putalisadk Branch, Kathamndu, Nepal </pre>
                     <pre></pre>
                     <div onClick={()=>{handleClick()}} className='mt-2'>

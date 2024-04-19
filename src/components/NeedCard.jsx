@@ -6,8 +6,8 @@ function NeedCard({logo,title,message}) {
       <div className='text-6xl w-full text-second flex justify-center my-4'>
         {logo}
       </div>
-        <h1 className='text-base lg:text-xl font-mediumc'>{title}</h1>
-        <p className='lg:text-base text-sm text-gray-500'>{message}</p>
+        <h1 className='text-base lg:text-xl font-medium'>{title}</h1>
+        <p className='lg:text-base text-sm px-4 text-gray-500'>{message}</p>
     </div>
   )
 }

@@ -22,8 +22,13 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link to="/about" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
-              About
+            <Link to="/our-team" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
+              Our Team
+            </Link>
+          </li>
+          <li>
+            <Link to="/resources" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
+              Resources
             </Link>
           </li>
           <li>

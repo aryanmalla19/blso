@@ -14,12 +14,12 @@ function Need() {
         <h1 className='text-xl lg:text-2xl font-semibold'>We do it for People in Need</h1>
         </div>
         <div className='flex sm:flex-row sm:justify-between lg:flex-row flex-col flex-wrap'>
-        <NeedCard logo={<FaHandHoldingMedical/>} title="Medicine Help" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
-        <NeedCard logo={<IoWater />} title="Water Delivery" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
-        <NeedCard logo={<MdBabyChangingStation/>} title="We Care About" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
-        <NeedCard logo={<AiOutlineGlobal/>} title="Spread The World" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
-        <NeedCard logo={<MdOutlineCastForEducation/>} title="Education" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
-        <NeedCard logo={<FaHandsHelping/>} title="Helping Hand" message="Centuries but also the leap into electronic typesetting, remaining specimen book."/>
+        <NeedCard logo={<FaHandHoldingMedical/>} title="Medicine Help" message="Giving Medicine, Saving Lives, One Treatment at a Time, with Kindness and Care."/>
+        <NeedCard logo={<IoWater />} title="Water Delivery" message="Bringing Water, Ending Thirst, Every Drop Counts for Healthier Communities."/>
+        <NeedCard logo={<MdBabyChangingStation/>} title="We Care About" message="Showing Love, Offering Support, Everyone Deserves a Helping Hand."/>
+        <NeedCard logo={<AiOutlineGlobal/>} title="Spread The World" message="Speak Up, Share Stories, Together We Can Make a Difference, Everywhere."/>
+        <NeedCard logo={<MdOutlineCastForEducation/>} title="Education" message="Learning Is Key, Building Dreams, Helping Kids Reach Their Potential, Step by Step."/>
+        <NeedCard logo={<FaHandsHelping/>} title="Helping Hand" message="Joining Forces, Making Impact, Together We Lift Each Other, Towards Better Days Ahead."/>
         </div>
     </div>
   )

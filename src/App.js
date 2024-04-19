@@ -26,6 +26,10 @@ import agriculture_photo from './assets/agricultre.jpg'
 import notebook_photo from './assets/notebook.jpg'
 import support_teacher_photo from './assets/supporting-teacher.jpg'
 import aid_photo from './assets/rice.jpg'
+import TeamSection from './components/TeamSection';
+import MissionGoal from './components/MissionGoal';
+import FAQ from './components/FAQ';
+import Message from './components/Message';
 function App() {
   const shoes_dis = [
     {
@@ -398,6 +402,12 @@ const aid_arr = [
         <Route path='/sponser-pokhrel' element={<SponserPokhrel/>} />
         <Route path='/sponser-kalawati' element={<SponserKalawati/>} />
         <Route path='/sponser-ansh' element={<SponserAnsh/>} />
+        <Route path='/our-team' element={<TeamSection/>} />
+        <Route path='/our-mission' element={<MissionGoal/>} />
+        <Route path='/resources' element={<>
+        <Message/>
+        <FAQ/>
+        </>} />
       </Routes>
       <Footer2/>
     </>
