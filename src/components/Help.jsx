@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomBox from './CustomBox'
-
+import photo from '../assets/family-support.jpg'
 function Help() {
     return (
         <div className='flex font-poppins flex-col py-10 w-11/12 lg:w-10/12 mx-auto'>
@@ -28,7 +28,7 @@ function Help() {
             </div>
             <div className='flex lg:flex-row flex-col-reverse justify-between'>
                 <div className='lg:w-6/12 lg:mr-10'>
-                    <img src='https://i.pinimg.com/564x/df/34/bd/df34bd5438de6a9cca99dd9c8d21fbf2.jpg' alt="" />
+                    <img src={photo} alt="" />
                 </div>
                 <div className='flex lg:w-6/12 flex-col'>
                     <h1 className='text-xl lg:text-2xl text-second font-medium my-2'>More People More impact</h1>

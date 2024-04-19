@@ -41,6 +41,7 @@ export const links = [
           { name: "Our Mission", link: "/our-mission" },
           { name: "About Us", link: "/about" },
           { name: "Success Story", link: "/about" },
+          { name: "Meet Our Team", link: "/our-team" },
         ],
       },
     ],

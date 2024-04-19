@@ -8,24 +8,21 @@ const Navbar = () => {
   return (
     <nav className="mb-20 lg:mb-0 border-b top-0 fixed lg:relative w-full z-50">
       <div className="flex bg-white z-50 items-center font-medium justify-around">
-        <div className="z-50 bg-white px-4 py-2 md:py-0 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-12 md:h-16" />
+        <div className="z-50 bg-white pl-2 lg:px-4 py-2 md:py-0 md:w-auto w-full flex justify-between">
+          <Link to="/">
+          <img src={Logo} alt="logo" className="md:cursor-pointer h-10 md:h-16" />
+          </Link>
           <div className="text-3xl flex items-center md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex mb-0 hidden uppercase items-center sm:gap-2 gap-8 font-poppins">
+        <ul className="md:flex ml-0 pl-0 mb-0 hidden uppercase items-center sm:gap-0 gap-8 font-poppins">
           <li>
             <Link to="/" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               Home
             </Link>
           </li>
           <NavLinks />
-          <li>
-            <Link to="/our-team" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
-              Our Team
-            </Link>
-          </li>
           <li>
             <Link to="/gallery" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               Gallery

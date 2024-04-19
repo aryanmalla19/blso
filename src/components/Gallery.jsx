@@ -13,7 +13,9 @@ export default function Gallery() {
       .then(data => {
         if (data && data.images) {
           setGalleryImages(data.images);
-          setLoading(false);
+          setTimeout(function() {
+    setLoading(false);
+}, 500); // 2000 milliseconds = 2 seconds
         }
       })
       .catch(error => console.error('Error fetching data:', error));
