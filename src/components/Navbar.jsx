@@ -27,6 +27,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/gallery" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
+              Gallery
+            </Link>
+          </li>
+          <li>
             <Link to="/resources" className="py-7 sm:px-2 sm:text-base lg:text-lg text-black no-underline px-3 inline-block">
               Resources
             </Link>

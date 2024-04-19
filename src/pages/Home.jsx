@@ -84,6 +84,10 @@ function Home() {
       </Reveal>
       <div className='bg-white'>
         <h1 className='text-xl lg:text-4xl pb-3 lg:pb-4 text-center mb-0 text-second'>Sponser Children</h1>
+        <p className='w-11/12 mx-auto'> <span className='text-second font-medium'>Dear Sponsors,</span> <br />
+                        Your gift of education for low-income children holds the power to unlock boundless potential. By investing in their future, you're not just providing books and classrooms; you're opening doors to a world of opportunity. Together, let's empower change and shape brighter futures. Thank you for being a beacon of hope in the lives of these children. We eagerly await your support.
+                        <br />You can choose a child you want to sponsor. <br/> Email us at <span className='text-second font-medium'>blsonepal@gmail.com</span> for more information. <br /> Thank you!
+                    </p>
         <div className='flex lg:flex-row sm:flex-row flex-col w-11/12 flex-wrap justify-between mx-auto'>
           {eventData.slice(0, 3).map((event, index) => (
             <SponserOtherChild link={event.link} key={index} title={event.title} category={event.category} img={event.img} message={event.message} />

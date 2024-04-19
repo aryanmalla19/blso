@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { FaYoutube, FaWhatsapp } from "react-icons/fa6";
 function SocialMedia() {
     return (
@@ -16,6 +16,10 @@ function SocialMedia() {
                 <div className='p-3 lg:py-4 flex justify-center cursor-pointer hover: items-center'>
                     <a href='https://api.whatsapp.com/send/?phone=%2B9779851091049&text&type=phone_number&app_absent=0' className='text-xl text-white'>
                         <FaWhatsapp /></a>
+                </div>
+                <div className='p-3 lg:py-4 flex justify-center cursor-pointer hover: items-center'>
+                    <a href="https://www.linkedin.com/company/better-life-social-organization/" className='text-xl text-white'>
+                        <FaLinkedin /></a>
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ export const links = [
       {
         Head: "Upcoming Projects",
         sublink: [
-          { name: "Poor Family Sponsor Program", link: "/family-support-project" },
+          { name: "Low Income Family Sponsor Program", link: "/family-support-project" },
         ],
       }
     ],

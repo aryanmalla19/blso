@@ -30,6 +30,9 @@ import TeamSection from './components/TeamSection';
 import MissionGoal from './components/MissionGoal';
 import FAQ from './components/FAQ';
 import Message from './components/Message';
+import Gallery from './components/Gallery';
+import bhupal from "./assets/bhupall.jpg"
+import bhawana from './assets/bhawana1.jpg'
 function App() {
   const shoes_dis = [
     {
@@ -375,6 +378,7 @@ const aid_arr = [
     Explore our website to learn more about our initiatives, impact stories, and how you can contribute to our cause. Together, let us build a stronger, more compassionate world where everyone has access to essential resources and support, regardless of their circumstance`
   }
 ]
+
   return (
     <>
       <Navbar/>
@@ -404,8 +408,36 @@ const aid_arr = [
         <Route path='/sponser-ansh' element={<SponserAnsh/>} />
         <Route path='/our-team' element={<TeamSection/>} />
         <Route path='/our-mission' element={<MissionGoal/>} />
+        <Route path='/gallery' element={<Gallery/>} />
         <Route path='/resources' element={<>
-        <Message/>
+          <Message name="Bhupal Niroula" post="Founder" img={bhupal} message={[
+          {
+            "message":"Namaste All, Since 2009, I have dedicated myself to social work, striving to provide support to the homeless, orphanages, and underprivileged children in need. Throughout this journey, I have witnessed the struggles faced by those who lack access to basic necessities, especially education. Additionally, I have been actively involved in providing aid during emergencies such as earthquakes, floods, and other natural disasters."
+          },
+          {
+            "message":"However, it is with a heavy heart that I must share our current challenge. Like many organizations, we are facing financial difficulties and are operating with limited resources. Despite this, our commitment to the well-being of children and the success of our projects remains unwavering. Therefore, I humbly appeal to you all for your support. Together, we can make a real difference in the lives of those who are not able to attend school and those affected by natural disasters. By joining forces with Better Life Social Organization, we can work towards improving education, agriculture, and healthcare for our communities."
+          },
+          {
+            "message":"Your support, whether through donations, volunteerism, or partnerships, will have a profound impact and greatly contribute to the success of our organization. Together, we can bring about positive change and enhance the value of our efforts. Thank you for considering this appeal and for your continued support. Let us come together to create a brighter and more promising future for all."
+          }
+        ]} />
+        <Message name="Bhawana Khatri" post="Co-founder" img={bhawana} message={[
+          {
+            "message":"Greetings from Bhawana Khatri, Co-founder of Better Life Social Organization!"
+          },
+          {
+            "message":"Since 2013, I have been deeply committed to social work, driven by a profound love for children and a steadfast belief in the power of compassion to change lives. Throughout my journey, I have witnessed the struggles faced by low-income families and their children, who often find themselves without hope for the future."
+          },
+          {
+            "message":"But amidst these challenges, there lies a beacon of hope - our collective support. Together, we can make a meaningful difference in the lives of these families and children. With even the smallest of contributions, we can bring smiles to their faces and light up their futures."
+          },
+          {
+            "message":"I appeal to each and every one of you to join us in our mission. Together, we can create a ripple effect of positive change that will resonate far and wide. Your support, no matter how small, has the power to make a big impact and bring joy to those in need."
+          },
+          {
+            "message":"Let us come together, hand in hand, to build a better future for all. Thank you for considering our mission and for your willingness to make a difference. Together, we can create a world where every child has the opportunity to thrive and smile."
+          }
+        ]} />
         <FAQ/>
         </>} />
       </Routes>
