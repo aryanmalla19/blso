@@ -40,7 +40,7 @@ export const links = [
         sublink: [
           { name: "Our Mission", link: "/our-mission" },
           { name: "About Us", link: "/about" },
-          { name: "Meet Our Team", link: "/our-team" },
+          { name: "Success Story", link: "/about" },
         ],
       },
     ],

@@ -12,7 +12,7 @@ function Contact() {
             <div className='flex flex-col lg:w-5/12'>
                 <h2 className='text-base lg:text-xl font-lato mt-10 lg:mt-0'>Contact</h2>
                 <h1 className='text-xl lg:text-3xl font-medium text-second'>Get in Touch With Us</h1>
-                <p className='text-sm lg:text-base'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim porro pariatur laudantium recusandae impedit sunt quidem ut culpa optio illo, maiores cum nobis expedita, corporis necessitatibus, quod ab. Animi, iste!</p>
+                <p className='text-sm lg:text-base'>Let's connect! Whether you have questions, ideas, or just want to chat, we're here for you. Get in touch with us today and let's work together!</p>
                 <div className='flex flex-col'>
                     <div className='flex lg:mt-5'>
                         <div className='bg-second px-2 flex justify-center items-center'>
@@ -37,7 +37,7 @@ function Contact() {
                     </div>
                 </div>
                 <h1 className='font-medium mt-5 text-xl lg:text-2xl'>Follow us on social media</h1>
-                <p className='text-gray-500 text-sm lg:text-base'>Veniam quae. Nostrum facere repellendus minus quod aut aliquam neque reiciendis.</p>
+                <p className='text-gray-500 text-sm lg:text-base'>Stay connected! Follow us on social media to keep up with our latest updates, events, and more.</p>
                 <Social />
             </div>
             <div className='lg:w-6/12'>

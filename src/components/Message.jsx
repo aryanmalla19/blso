@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaQuoteRight } from "react-icons/fa";
-import bipual from '../assets/bhupall1.jpg'
 function Message({name,post,message,img}) {
   return (
     <div className=''>

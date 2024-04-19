@@ -31,7 +31,7 @@ import MissionGoal from './components/MissionGoal';
 import FAQ from './components/FAQ';
 import Message from './components/Message';
 import Gallery from './components/Gallery';
-import bhupal from "./assets/bhupall.jpg"
+import bhupal from "./assets/bhupall1.jpg"
 import bhawana from './assets/bhawana1.jpg'
 function App() {
   const shoes_dis = [

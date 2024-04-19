@@ -59,8 +59,18 @@ const Navbar = () => {
           </li>
           <NavLinks setOpen={setOpen} open={open} />
           <li>
-            <Link onClick={() => setOpen(!open)} to="/about" className="py-7 px-3 inline-block">
-              About
+            <Link onClick={() => setOpen(!open)} to="/our-team" className="py-7 px-3 inline-block">
+              Our Team
+            </Link>
+          </li>
+          <li>
+            <Link onClick={() => setOpen(!open)} to="/gallery" className="py-7 px-3 inline-block">
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link onClick={() => setOpen(!open)} to="/resources" className="py-7 px-3 inline-block">
+              Resources
             </Link>
           </li>
           <li>
@@ -68,7 +78,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <div className="py-5">
+          <div onClick={()=>setOpen(!open)} className="py-5">
             <Button />
           </div>
          

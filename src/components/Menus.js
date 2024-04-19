@@ -27,7 +27,7 @@ export const PRODUCTS = [
   export const Icons = [
     { name: "logo-facebook", link: "https://www.facebook.com/santosh.bhardhoj" },
     { name: "logo-youtube", link: "https://www.youtube.com/channel/UCzaypVtCEQVBEc2Ibwn-yGQ" },
-    { name: "logo-linkedin", link: "#" },
+    { name: "logo-linkedin", link: "https://www.linkedin.com/company/better-life-social-organization/" },
     { name: "logo-instagram", link: "#" },
     { name: "logo-whatsapp", link: "https://api.whatsapp.com/send/?phone=%2B9779851091049&text&type=phone_number&app_absent=0" },
   ];    
