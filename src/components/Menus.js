@@ -1,25 +1,28 @@
 export const PRODUCTS = [
     { name: "Education project", link: "/education-project" },
     { name: "Agriculture project", link: "/agriculture-project" },
-    { name: "POOR FAMILY SPONSOR PROGRAM", link: "/family-support-project" },
+    { name: "LOW INCOME FAMILY SPONSOR PROGRAM", link: "/family-support-project" },
     { name: "Earthquake relief program", link: "/nepal-earthquake" },
   ];
   export const RESOURCES = [
-    { name: "Save A Child", link: "/sponser-tara" },
     { name: "Join Volunteer", link: "#" },
     { name: "Our Events", link: "#events" },
     { name: "Family Sponser", link: "/family-support-project" },
+    { name: "Our Mission", link: "/our-mission" },
   ];
   export const COMPANY = [
     { name: "Home", link: "#" },
-    { name: "About us", link: "#about" },
+    { name: "About us", link: "/about" },
     { name: "Introduction", link: "#introduction" },
+    { name: "Meet Our Team", link: "/our-team" },
     // { name: "Customer Stories", link: "#" },
     // { name: "Online communities", link: "#" },
   ];
   export const SUPPORT = [
     { name: "Contact Us", link: "/contact" },
     { name: "Donate Here", link: "/donation" },
+    { name: "Save A Child", link: "/sponser-tara" },
+
     // { name: "Webinars", link: "#" },
     // { name: "Open-source", link: "#" },
   ];

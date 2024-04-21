@@ -1,7 +1,30 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useRef } from 'react'
+import emailjs from '@emailjs/browser';
+
+
 import { CiMail, CiPhone } from "react-icons/ci";
 import Social from './Social';
 function Contact() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_f74fikq', 'template_ovc694l', form.current, {
+          publicKey: 'n9Uazkx5uGTIi0PW4',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top when component mounts
     }, []); // Empty dependency array ensures this effect runs only once, similar to componentDidMount
@@ -46,12 +69,12 @@ We look forward to connecting with you soon.
                 <p className='text-gray-500 mb-0 text-sm lg:text-base'>Stay connected! Follow us on social media to keep up with our latest updates, events, and more.</p>
                 <Social />
             </div>
-            <div className='lg:w-[40%]'>
-                <form className='flex mt-8 flex-col' action="" method="post">
-                    <input className='bg-gray-300 pl-3 py-3 my-2' type="text" name="name" id="name" placeholder='Enter your name' />
-                    <input className='bg-gray-300 pl-3 py-3 my-2' type="text" name="number" id="number" placeholder='Phone number' />
-                    <input className='bg-gray-300 pl-3 py-3 my-2' type="email" name="email" id="email" placeholder='Email address' />
-                    <textarea className='bg-gray-300 pl-3 py-3 my-2' name="message" id="message" cols="30" rows="10" placeholder='Your message'></textarea>
+            <div className='lg:w-[40%]' >
+                <form className='flex mt-8 flex-col' ref={form} onSubmit={sendEmail} action="" method="post">
+                    <input className='bg-gray-300 pl-3 py-3 my-2' type="text" name="user_name" id="name" placeholder='Enter your name' />
+                    <input className='bg-gray-300 pl-3 py-3 my-2' type="text" name="user_number" id="number" placeholder='Phone number' />
+                    <input className='bg-gray-300 pl-3 py-3 my-2' type="email" name="user_email" id="email" placeholder='Email address' />
+                    <textarea className='bg-gray-300 pl-3 py-3 my-2' name="user_message" id="message" cols="30" rows="10" placeholder='Your message'></textarea>
                     <input className='bg-second mx-auto mt-2 text-white w-24 rounded-2xl py-1' type="submit" value="SUBMIT" />
                 </form>
             </div>

@@ -7,7 +7,7 @@ function TypoInRes() {
         <div className='flex flex-col'>
             <p className='text-gray-500'>
                 <br />
-            Dear well wiser <br /> <br />
+            Dear well wisher <br /> <br />
 Welcome to Better Life Social Organization, where every individual and organization holds immense value in our community and mission. We extend our heartfelt gratitude to you for considering joining us in our journey towards positive change. <br />
 At Better Life, our projects and initiatives are fueled by the generosity of donors like you. Without your support, we simply cannot carry out our work effectively. We are deeply reliant on financial contributions, donations of school supplies, the dedication of volunteers, and partnerships with organizations who share our vision.
 <br /> <br />It's important to acknowledge that we operate with limited resources, and this presents challenges to our work. However, it's in the face of these challenges that we find the opportunity to unite, to innovate, and to make a lasting impact in the lives of those we serve.
